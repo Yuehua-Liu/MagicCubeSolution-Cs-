@@ -27,31 +27,38 @@ namespace MagicBube_Solution
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             f_0.Text = f_0.Text.ToUpper();
-            char i= f_0.Text[0];
-            int c = 
-            //這邊一直卡住，但把下邊運算式註解掉卻能跑＠＠　ＷＴＦ？？？
+            string i= f_0.Text;
 
+            //下面這段為測試用
+            textBox10.Text = i.ToString();
+            if (i[0] == color_B)
+            {
+                textBox9.Text = "hk";
+                textBox11.BackColor = Color.Blue;
+            }
+            //這邊主要會卡住原因是因為如果裡面是空字串,則會產生錯誤,而改期他字元就不會
+            
             /*if (i == color_W)
             {
                 f_0.BackColor = Color.White;
 
-            }else if (i == color_R)
+            }*//*else if (i == color_R)
             {
                 f_0.BackColor = Color.Red;
             }else if (i == color_G)
             {
                 f_0.BackColor = Color.Green;
-            }else if (i == color_B)
+            }else */if (i[0] == color_B)
             {
                 f_0.BackColor = Color.Blue;
-            }else if (i == color_Y)
+            }/*else if (i == color_Y)
             {
                 f_0.BackColor = Color.Yellow;
             }else if (i == color_O)
             {
                 f_0.BackColor = Color.Orange;
-            }
-            f_0.ResetText();*/
+            }*/
+            
         }
 
         private void groupBox6_Enter(object sender, EventArgs e)
