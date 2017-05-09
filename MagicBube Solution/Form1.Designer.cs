@@ -96,6 +96,7 @@
             this.b_0 = new System.Windows.Forms.TextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.info_box = new System.Windows.Forms.TextBox();
             this.Face_F.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -113,6 +114,7 @@
             this.F.TabIndex = 0;
             this.F.Text = "F";
             this.F.UseVisualStyleBackColor = true;
+            this.F.Click += new System.EventHandler(this.F_Click);
             // 
             // B
             // 
@@ -778,17 +780,27 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(445, 38);
+            this.label1.Location = new System.Drawing.Point(409, 41);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(132, 168);
             this.label1.TabIndex = 16;
             this.label1.Text = "W：White\r\nR：Red\r\nG：Green\r\nB：Blue\r\nY：Yellow\r\nO：Orange";
+            // 
+            // info_box
+            // 
+            this.info_box.Enabled = false;
+            this.info_box.Location = new System.Drawing.Point(620, 352);
+            this.info_box.Multiline = true;
+            this.info_box.Name = "info_box";
+            this.info_box.Size = new System.Drawing.Size(449, 260);
+            this.info_box.TabIndex = 17;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1103, 666);
+            this.Controls.Add(this.info_box);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.D);
             this.Controls.Add(this.R);
@@ -813,6 +825,7 @@
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -886,6 +899,7 @@
         private System.Windows.Forms.TextBox b_0;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox info_box;
     }
 }
 
