@@ -97,6 +97,10 @@
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.info_box = new System.Windows.Forms.TextBox();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.trace_back = new System.Windows.Forms.Button();
+            this.analyse = new System.Windows.Forms.Button();
+            this.return_to_default = new System.Windows.Forms.Button();
             this.Face_F.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -104,13 +108,14 @@
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.SuspendLayout();
             // 
             // F
             // 
-            this.F.Location = new System.Drawing.Point(707, 70);
+            this.F.Location = new System.Drawing.Point(35, 47);
             this.F.Name = "F";
-            this.F.Size = new System.Drawing.Size(153, 67);
+            this.F.Size = new System.Drawing.Size(185, 67);
             this.F.TabIndex = 0;
             this.F.Text = "F";
             this.F.UseVisualStyleBackColor = true;
@@ -118,9 +123,9 @@
             // 
             // B
             // 
-            this.B.Location = new System.Drawing.Point(866, 70);
+            this.B.Location = new System.Drawing.Point(235, 47);
             this.B.Name = "B";
-            this.B.Size = new System.Drawing.Size(153, 67);
+            this.B.Size = new System.Drawing.Size(185, 67);
             this.B.TabIndex = 1;
             this.B.Text = "B";
             this.B.UseVisualStyleBackColor = true;
@@ -128,9 +133,9 @@
             // 
             // L
             // 
-            this.L.Location = new System.Drawing.Point(707, 143);
+            this.L.Location = new System.Drawing.Point(35, 120);
             this.L.Name = "L";
-            this.L.Size = new System.Drawing.Size(153, 67);
+            this.L.Size = new System.Drawing.Size(185, 67);
             this.L.TabIndex = 2;
             this.L.Text = "L";
             this.L.UseVisualStyleBackColor = true;
@@ -138,9 +143,9 @@
             // 
             // U
             // 
-            this.U.Location = new System.Drawing.Point(707, 216);
+            this.U.Location = new System.Drawing.Point(35, 193);
             this.U.Name = "U";
-            this.U.Size = new System.Drawing.Size(153, 67);
+            this.U.Size = new System.Drawing.Size(185, 67);
             this.U.TabIndex = 3;
             this.U.Text = "U";
             this.U.UseVisualStyleBackColor = true;
@@ -148,9 +153,9 @@
             // 
             // R
             // 
-            this.R.Location = new System.Drawing.Point(866, 143);
+            this.R.Location = new System.Drawing.Point(235, 120);
             this.R.Name = "R";
-            this.R.Size = new System.Drawing.Size(153, 67);
+            this.R.Size = new System.Drawing.Size(185, 67);
             this.R.TabIndex = 4;
             this.R.Text = "R";
             this.R.UseVisualStyleBackColor = true;
@@ -158,9 +163,9 @@
             // 
             // D
             // 
-            this.D.Location = new System.Drawing.Point(866, 216);
+            this.D.Location = new System.Drawing.Point(235, 193);
             this.D.Name = "D";
-            this.D.Size = new System.Drawing.Size(153, 67);
+            this.D.Size = new System.Drawing.Size(185, 67);
             this.D.TabIndex = 5;
             this.D.Text = "D";
             this.D.UseVisualStyleBackColor = true;
@@ -793,26 +798,75 @@
             // 
             // info_box
             // 
+            this.info_box.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.info_box.Enabled = false;
-            this.info_box.Location = new System.Drawing.Point(620, 352);
+            this.info_box.Location = new System.Drawing.Point(620, 392);
             this.info_box.Multiline = true;
             this.info_box.Name = "info_box";
             this.info_box.Size = new System.Drawing.Size(449, 260);
             this.info_box.TabIndex = 17;
             // 
+            // groupBox7
+            // 
+            this.groupBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox7.Controls.Add(this.F);
+            this.groupBox7.Controls.Add(this.B);
+            this.groupBox7.Controls.Add(this.L);
+            this.groupBox7.Controls.Add(this.D);
+            this.groupBox7.Controls.Add(this.R);
+            this.groupBox7.Controls.Add(this.U);
+            this.groupBox7.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox7.Location = new System.Drawing.Point(620, 29);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(449, 277);
+            this.groupBox7.TabIndex = 18;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "旋轉";
+            // 
+            // trace_back
+            // 
+            this.trace_back.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.trace_back.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.trace_back.Location = new System.Drawing.Point(620, 312);
+            this.trace_back.Name = "trace_back";
+            this.trace_back.Size = new System.Drawing.Size(131, 67);
+            this.trace_back.TabIndex = 6;
+            this.trace_back.Text = "回朔";
+            this.trace_back.UseVisualStyleBackColor = true;
+            // 
+            // analyse
+            // 
+            this.analyse.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.analyse.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.analyse.Location = new System.Drawing.Point(779, 314);
+            this.analyse.Name = "analyse";
+            this.analyse.Size = new System.Drawing.Size(131, 67);
+            this.analyse.TabIndex = 19;
+            this.analyse.Text = "分析";
+            this.analyse.UseVisualStyleBackColor = true;
+            // 
+            // return_to_default
+            // 
+            this.return_to_default.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.return_to_default.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.return_to_default.Location = new System.Drawing.Point(938, 314);
+            this.return_to_default.Name = "return_to_default";
+            this.return_to_default.Size = new System.Drawing.Size(131, 67);
+            this.return_to_default.TabIndex = 20;
+            this.return_to_default.Text = "還原";
+            this.return_to_default.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1103, 666);
+            this.ClientSize = new System.Drawing.Size(1101, 666);
+            this.Controls.Add(this.return_to_default);
+            this.Controls.Add(this.analyse);
+            this.Controls.Add(this.trace_back);
+            this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.info_box);
             this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.D);
-            this.Controls.Add(this.R);
-            this.Controls.Add(this.U);
-            this.Controls.Add(this.L);
-            this.Controls.Add(this.B);
-            this.Controls.Add(this.F);
             this.Name = "Form1";
             this.Text = "Magic Cube Solution";
             this.Face_F.ResumeLayout(false);
@@ -829,6 +883,7 @@
             this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -905,6 +960,10 @@
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox info_box;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.Button trace_back;
+        private System.Windows.Forms.Button analyse;
+        private System.Windows.Forms.Button return_to_default;
     }
 }
 
