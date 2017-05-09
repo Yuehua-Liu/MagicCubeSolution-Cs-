@@ -197,6 +197,252 @@ namespace MagicBube_Solution
 
             }
         }
+        /*
+        *************
+        ** B轉方法 **
+        *************
+        */
+        public void b_turn(int times)
+        {
+            string[] x = new string[3];
+            for (int j = 0; j < times; j++)
+            {
+                //B面四角
+                x[0] = B_side[0];
+                B_side[0] = B_side[6];
+                B_side[6] = B_side[8];
+                B_side[8] = B_side[2];
+                B_side[2] = x[0];
+
+                //B面四邊
+                x[0] = B_side[3];
+                B_side[3] = B_side[7];
+                B_side[7] = B_side[5];
+                B_side[5] = B_side[1];
+                B_side[1] = x[0];
+
+                //B面四橫面
+                x[0] = L_side[0];
+                x[1] = L_side[3];
+                x[2] = L_side[6];
+
+                L_side[0] = U_side[2];
+                L_side[3] = U_side[1];
+                L_side[6] = U_side[0];
+
+                U_side[2] = R_side[8];
+                U_side[1] = R_side[5];
+                U_side[0] = R_side[2];
+
+                R_side[8] = D_side[6];
+                R_side[5] = D_side[7];
+                R_side[2] = D_side[8];
+
+                D_side[6] = x[0];
+                D_side[7] = x[1];
+                D_side[8] = x[2];
+                //更新方法套入
+                array_cube_update();
+
+            }
+        }
+        /*
+        *************
+        ** L轉方法 **
+        *************
+        */
+        public void l_turn(int times)
+        {
+            string[] x = new string[3];
+            for (int j = 0; j < times; j++)
+            {
+                //L面四角
+                x[0] = L_side[8];
+                L_side[8] = L_side[2];
+                L_side[2] = L_side[0];
+                L_side[0] = L_side[6];
+                L_side[6] = x[0];
+
+                //L面四邊
+                x[0] = L_side[5];
+                L_side[5] = L_side[1];
+                L_side[1] = L_side[3];
+                L_side[3] = L_side[7];
+                L_side[7] = x[0];
+
+                //L面四橫面
+                x[0] = F_side[0];
+                x[1] = F_side[3];
+                x[2] = F_side[6];
+
+                F_side[0] = U_side[0];
+                F_side[3] = U_side[3];
+                F_side[6] = U_side[6];
+
+                U_side[0] = B_side[0];
+                U_side[3] = B_side[3];
+                U_side[6] = B_side[6];
+
+                B_side[0] = D_side[0];
+                B_side[3] = D_side[3];
+                B_side[6] = D_side[6];
+
+                D_side[0] = x[0];
+                D_side[3] = x[1];
+                D_side[6] = x[2];
+                //更新方法套入
+                array_cube_update();
+
+            }
+        }
+        /*
+        *************
+        ** R轉方法 **
+        *************
+        */
+        public void r_turn(int times)
+        {
+            string[] x = new string[3];
+            for (int j = 0; j < times; j++)
+            {
+                //R面四角
+                x[0] = R_side[8];
+                R_side[8] = R_side[2];
+                R_side[2] = R_side[0];
+                R_side[0] = R_side[6];
+                R_side[6] = x[0];
+
+                //R面四邊
+                x[0] = R_side[5];
+                R_side[5] = R_side[1];
+                R_side[1] = R_side[3];
+                R_side[3] = R_side[7];
+                R_side[7] = x[0];
+
+                //R面四橫面
+                x[0] = B_side[8];
+                x[1] = B_side[5];
+                x[2] = B_side[2];
+
+                B_side[8] = U_side[8];
+                B_side[5] = U_side[5];
+                B_side[2] = U_side[2];
+
+                U_side[8] = F_side[8];
+                U_side[5] = F_side[5];
+                U_side[2] = F_side[2];
+
+                F_side[8] = D_side[8];
+                F_side[5] = D_side[5];
+                F_side[2] = D_side[2];
+
+                D_side[8] = x[0];
+                D_side[5] = x[1];
+                D_side[2] = x[2];
+                //更新方法套入
+                array_cube_update();
+
+            }
+        }
+        /*
+        *************
+        ** U轉方法 **
+        *************
+        */
+        public void u_turn(int times)
+        {
+            string[] x = new string[3];
+            for (int j = 0; j < times; j++)
+            {
+                //U面四角
+                x[0] = U_side[8];
+                U_side[8] = U_side[2];
+                U_side[2] = U_side[0];
+                U_side[0] = U_side[6];
+                U_side[6] = x[0];
+
+                //U面四邊
+                x[0] = U_side[5];
+                U_side[5] = U_side[1];
+                U_side[1] = U_side[3];
+                U_side[3] = U_side[7];
+                U_side[7] = x[0];
+
+                //U面四橫面
+                x[0] = R_side[2];
+                x[1] = R_side[1];
+                x[2] = R_side[0];
+
+                R_side[2] = B_side[6];
+                R_side[1] = B_side[7];
+                R_side[0] = B_side[8];
+
+                B_side[6] = L_side[2];
+                B_side[7] = L_side[1];
+                B_side[8] = L_side[0];
+
+                L_side[2] = F_side[2];
+                L_side[1] = F_side[1];
+                L_side[0] = F_side[0];
+
+                F_side[2] = x[0];
+                F_side[1] = x[1];
+                F_side[0] = x[2];
+                //更新方法套入
+                array_cube_update();
+
+            }
+        }
+        /*
+        *************
+        ** D轉方法 **
+        *************
+        */
+        public void d_turn(int times)
+        {
+            string[] x = new string[3];
+            for (int j = 0; j < times; j++)
+            {
+                //D面四角
+                x[0] = D_side[8];
+                D_side[8] = D_side[2];
+                D_side[2] = D_side[0];
+                D_side[0] = D_side[6];
+                D_side[6] = x[0];
+
+                //D面四邊
+                x[0] = D_side[5];
+                D_side[5] = D_side[1];
+                D_side[1] = D_side[3];
+                D_side[3] = D_side[7];
+                D_side[7] = x[0];
+
+                //D面四橫面
+                x[0] = R_side[6];
+                x[1] = R_side[7];
+                x[2] = R_side[8];
+
+                R_side[6] = F_side[6];
+                R_side[7] = F_side[7];
+                R_side[8] = F_side[8];
+
+                F_side[6] = L_side[6];
+                F_side[7] = L_side[7];
+                F_side[8] = L_side[8];
+
+                L_side[6] = B_side[2];
+                L_side[7] = B_side[1];
+                L_side[8] = B_side[0];
+
+                B_side[2] = x[0];
+                B_side[1] = x[1];
+                B_side[0] = x[2];
+                //更新方法套入
+                array_cube_update();
+
+            }
+        }
+
 
 
         public Form1()
@@ -491,6 +737,51 @@ namespace MagicBube_Solution
         private void F_Click(object sender, EventArgs e)
         {
             f_turn(1);
+        }
+        /*
+        ***************
+        *** B轉按鈕 ***
+        ***************
+        */
+        private void B_Click(object sender, EventArgs e)
+        {
+            b_turn(1);
+        }
+        /*
+        ***************
+        *** R轉按鈕 ***
+        ***************
+        */
+        private void R_Click_1(object sender, EventArgs e)
+        {
+            r_turn(1);
+        }
+        /*
+        ***************
+        *** L轉按鈕 ***
+        ***************
+        */
+        private void L_Click_1(object sender, EventArgs e)
+        {
+            l_turn(1);
+        }
+        /*
+        ***************
+        *** U轉按鈕 ***
+        ***************
+        */
+        private void U_Click(object sender, EventArgs e)
+        {
+            u_turn(1);
+        }
+        /*
+        ***************
+        *** D轉按鈕 ***
+        ***************
+        */
+        private void D_Click(object sender, EventArgs e)
+        {
+            d_turn(1);
         }
     }
 }

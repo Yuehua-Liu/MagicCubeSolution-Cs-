@@ -124,6 +124,7 @@
             this.B.TabIndex = 1;
             this.B.Text = "B";
             this.B.UseVisualStyleBackColor = true;
+            this.B.Click += new System.EventHandler(this.B_Click);
             // 
             // L
             // 
@@ -133,6 +134,7 @@
             this.L.TabIndex = 2;
             this.L.Text = "L";
             this.L.UseVisualStyleBackColor = true;
+            this.L.Click += new System.EventHandler(this.L_Click_1);
             // 
             // U
             // 
@@ -142,6 +144,7 @@
             this.U.TabIndex = 3;
             this.U.Text = "U";
             this.U.UseVisualStyleBackColor = true;
+            this.U.Click += new System.EventHandler(this.U_Click);
             // 
             // R
             // 
@@ -151,6 +154,7 @@
             this.R.TabIndex = 4;
             this.R.Text = "R";
             this.R.UseVisualStyleBackColor = true;
+            this.R.Click += new System.EventHandler(this.R_Click_1);
             // 
             // D
             // 
@@ -160,6 +164,7 @@
             this.D.TabIndex = 5;
             this.D.Text = "D";
             this.D.UseVisualStyleBackColor = true;
+            this.D.Click += new System.EventHandler(this.D_Click);
             // 
             // f_0
             // 
