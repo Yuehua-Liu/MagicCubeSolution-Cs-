@@ -36,75 +36,66 @@
             this.D = new System.Windows.Forms.Button();
             this.f_0 = new System.Windows.Forms.TextBox();
             this.Face_F = new System.Windows.Forms.GroupBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.f_8 = new System.Windows.Forms.TextBox();
+            this.f_7 = new System.Windows.Forms.TextBox();
+            this.f_6 = new System.Windows.Forms.TextBox();
+            this.f_5 = new System.Windows.Forms.TextBox();
+            this.f_4 = new System.Windows.Forms.TextBox();
+            this.f_3 = new System.Windows.Forms.TextBox();
+            this.f_1 = new System.Windows.Forms.TextBox();
+            this.f_2 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.r_8 = new System.Windows.Forms.TextBox();
+            this.r_7 = new System.Windows.Forms.TextBox();
+            this.r_6 = new System.Windows.Forms.TextBox();
+            this.r_5 = new System.Windows.Forms.TextBox();
+            this.r_4 = new System.Windows.Forms.TextBox();
+            this.r_3 = new System.Windows.Forms.TextBox();
+            this.r_1 = new System.Windows.Forms.TextBox();
+            this.r_2 = new System.Windows.Forms.TextBox();
+            this.r_0 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.l_8 = new System.Windows.Forms.TextBox();
+            this.l_7 = new System.Windows.Forms.TextBox();
+            this.l_6 = new System.Windows.Forms.TextBox();
+            this.l_5 = new System.Windows.Forms.TextBox();
+            this.l_4 = new System.Windows.Forms.TextBox();
+            this.l_3 = new System.Windows.Forms.TextBox();
+            this.l_1 = new System.Windows.Forms.TextBox();
+            this.l_2 = new System.Windows.Forms.TextBox();
+            this.l_0 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.d_8 = new System.Windows.Forms.TextBox();
+            this.d_7 = new System.Windows.Forms.TextBox();
+            this.d_6 = new System.Windows.Forms.TextBox();
+            this.d_5 = new System.Windows.Forms.TextBox();
+            this.d_4 = new System.Windows.Forms.TextBox();
+            this.d_3 = new System.Windows.Forms.TextBox();
+            this.d_1 = new System.Windows.Forms.TextBox();
+            this.d_2 = new System.Windows.Forms.TextBox();
+            this.d_0 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.u_8 = new System.Windows.Forms.TextBox();
+            this.u_7 = new System.Windows.Forms.TextBox();
+            this.u_6 = new System.Windows.Forms.TextBox();
+            this.u_5 = new System.Windows.Forms.TextBox();
+            this.u_4 = new System.Windows.Forms.TextBox();
+            this.u_3 = new System.Windows.Forms.TextBox();
+            this.u_1 = new System.Windows.Forms.TextBox();
+            this.u_2 = new System.Windows.Forms.TextBox();
+            this.u_0 = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.textBox49 = new System.Windows.Forms.TextBox();
-            this.textBox50 = new System.Windows.Forms.TextBox();
-            this.textBox51 = new System.Windows.Forms.TextBox();
-            this.textBox52 = new System.Windows.Forms.TextBox();
-            this.textBox53 = new System.Windows.Forms.TextBox();
+            this.b_8 = new System.Windows.Forms.TextBox();
+            this.b_7 = new System.Windows.Forms.TextBox();
+            this.b_6 = new System.Windows.Forms.TextBox();
+            this.b_5 = new System.Windows.Forms.TextBox();
+            this.b_4 = new System.Windows.Forms.TextBox();
+            this.b_3 = new System.Windows.Forms.TextBox();
+            this.b_1 = new System.Windows.Forms.TextBox();
+            this.b_2 = new System.Windows.Forms.TextBox();
+            this.b_0 = new System.Windows.Forms.TextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.Test_block = new System.Windows.Forms.GroupBox();
-            this.t_8 = new System.Windows.Forms.TextBox();
-            this.t_7 = new System.Windows.Forms.TextBox();
-            this.t_6 = new System.Windows.Forms.TextBox();
-            this.t_5 = new System.Windows.Forms.TextBox();
-            this.t_4 = new System.Windows.Forms.TextBox();
-            this.t_3 = new System.Windows.Forms.TextBox();
-            this.t_1 = new System.Windows.Forms.TextBox();
-            this.t_2 = new System.Windows.Forms.TextBox();
-            this.t_0 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.Face_F.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -112,7 +103,6 @@
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            this.Test_block.SuspendLayout();
             this.SuspendLayout();
             // 
             // F
@@ -176,19 +166,19 @@
             this.f_0.Name = "f_0";
             this.f_0.Size = new System.Drawing.Size(29, 29);
             this.f_0.TabIndex = 6;
-            this.f_0.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.f_0.TextChanged += new System.EventHandler(this.f_0_TextChanged);
             // 
             // Face_F
             // 
             this.Face_F.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Face_F.Controls.Add(this.textBox9);
-            this.Face_F.Controls.Add(this.textBox8);
-            this.Face_F.Controls.Add(this.textBox7);
-            this.Face_F.Controls.Add(this.textBox6);
-            this.Face_F.Controls.Add(this.textBox5);
-            this.Face_F.Controls.Add(this.textBox4);
-            this.Face_F.Controls.Add(this.textBox3);
-            this.Face_F.Controls.Add(this.textBox2);
+            this.Face_F.Controls.Add(this.f_8);
+            this.Face_F.Controls.Add(this.f_7);
+            this.Face_F.Controls.Add(this.f_6);
+            this.Face_F.Controls.Add(this.f_5);
+            this.Face_F.Controls.Add(this.f_4);
+            this.Face_F.Controls.Add(this.f_3);
+            this.Face_F.Controls.Add(this.f_1);
+            this.Face_F.Controls.Add(this.f_2);
             this.Face_F.Controls.Add(this.f_0);
             this.Face_F.Font = new System.Drawing.Font("微軟正黑體", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Face_F.Location = new System.Drawing.Point(220, 304);
@@ -198,74 +188,82 @@
             this.Face_F.TabStop = false;
             this.Face_F.Text = "Face_F";
             // 
-            // textBox9
+            // f_8
             // 
-            this.textBox9.Location = new System.Drawing.Point(76, 89);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(29, 29);
-            this.textBox9.TabIndex = 14;
+            this.f_8.Location = new System.Drawing.Point(76, 89);
+            this.f_8.Name = "f_8";
+            this.f_8.Size = new System.Drawing.Size(29, 29);
+            this.f_8.TabIndex = 14;
+            this.f_8.TextChanged += new System.EventHandler(this.f_8_TextChanged);
             // 
-            // textBox8
+            // f_7
             // 
-            this.textBox8.Location = new System.Drawing.Point(41, 89);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(29, 29);
-            this.textBox8.TabIndex = 13;
+            this.f_7.Location = new System.Drawing.Point(41, 89);
+            this.f_7.Name = "f_7";
+            this.f_7.Size = new System.Drawing.Size(29, 29);
+            this.f_7.TabIndex = 13;
+            this.f_7.TextChanged += new System.EventHandler(this.f_7_TextChanged);
             // 
-            // textBox7
+            // f_6
             // 
-            this.textBox7.Location = new System.Drawing.Point(6, 89);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(29, 29);
-            this.textBox7.TabIndex = 12;
+            this.f_6.Location = new System.Drawing.Point(6, 89);
+            this.f_6.Name = "f_6";
+            this.f_6.Size = new System.Drawing.Size(29, 29);
+            this.f_6.TabIndex = 12;
+            this.f_6.TextChanged += new System.EventHandler(this.f_6_TextChanged);
             // 
-            // textBox6
+            // f_5
             // 
-            this.textBox6.Location = new System.Drawing.Point(76, 54);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(29, 29);
-            this.textBox6.TabIndex = 11;
+            this.f_5.Location = new System.Drawing.Point(76, 54);
+            this.f_5.Name = "f_5";
+            this.f_5.Size = new System.Drawing.Size(29, 29);
+            this.f_5.TabIndex = 11;
+            this.f_5.TextChanged += new System.EventHandler(this.f_5_TextChanged);
             // 
-            // textBox5
+            // f_4
             // 
-            this.textBox5.Location = new System.Drawing.Point(41, 54);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(29, 29);
-            this.textBox5.TabIndex = 10;
+            this.f_4.Location = new System.Drawing.Point(41, 54);
+            this.f_4.Name = "f_4";
+            this.f_4.Size = new System.Drawing.Size(29, 29);
+            this.f_4.TabIndex = 10;
+            this.f_4.TextChanged += new System.EventHandler(this.f_4_TextChanged);
             // 
-            // textBox4
+            // f_3
             // 
-            this.textBox4.Location = new System.Drawing.Point(6, 54);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(29, 29);
-            this.textBox4.TabIndex = 9;
+            this.f_3.Location = new System.Drawing.Point(6, 54);
+            this.f_3.Name = "f_3";
+            this.f_3.Size = new System.Drawing.Size(29, 29);
+            this.f_3.TabIndex = 9;
+            this.f_3.TextChanged += new System.EventHandler(this.f_3_TextChanged);
             // 
-            // textBox3
+            // f_1
             // 
-            this.textBox3.Location = new System.Drawing.Point(41, 19);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(29, 29);
-            this.textBox3.TabIndex = 8;
+            this.f_1.Location = new System.Drawing.Point(41, 19);
+            this.f_1.Name = "f_1";
+            this.f_1.Size = new System.Drawing.Size(29, 29);
+            this.f_1.TabIndex = 8;
+            this.f_1.TextChanged += new System.EventHandler(this.f_1_TextChanged);
             // 
-            // textBox2
+            // f_2
             // 
-            this.textBox2.Location = new System.Drawing.Point(76, 19);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(29, 29);
-            this.textBox2.TabIndex = 7;
+            this.f_2.Location = new System.Drawing.Point(76, 19);
+            this.f_2.Name = "f_2";
+            this.f_2.Size = new System.Drawing.Size(29, 29);
+            this.f_2.TabIndex = 7;
+            this.f_2.TextChanged += new System.EventHandler(this.f_2_TextChanged);
             // 
             // groupBox1
             // 
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.textBox10);
-            this.groupBox1.Controls.Add(this.textBox11);
-            this.groupBox1.Controls.Add(this.textBox12);
-            this.groupBox1.Controls.Add(this.textBox13);
-            this.groupBox1.Controls.Add(this.textBox14);
-            this.groupBox1.Controls.Add(this.textBox15);
-            this.groupBox1.Controls.Add(this.textBox16);
-            this.groupBox1.Controls.Add(this.textBox17);
+            this.groupBox1.Controls.Add(this.r_8);
+            this.groupBox1.Controls.Add(this.r_7);
+            this.groupBox1.Controls.Add(this.r_6);
+            this.groupBox1.Controls.Add(this.r_5);
+            this.groupBox1.Controls.Add(this.r_4);
+            this.groupBox1.Controls.Add(this.r_3);
+            this.groupBox1.Controls.Add(this.r_1);
+            this.groupBox1.Controls.Add(this.r_2);
+            this.groupBox1.Controls.Add(this.r_0);
             this.groupBox1.Font = new System.Drawing.Font("微軟正黑體", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.groupBox1.Location = new System.Drawing.Point(338, 304);
             this.groupBox1.Name = "groupBox1";
@@ -274,81 +272,99 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Face_R";
             // 
-            // textBox1
+            // r_8
             // 
-            this.textBox1.Location = new System.Drawing.Point(76, 89);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(29, 29);
-            this.textBox1.TabIndex = 14;
+            this.r_8.BackColor = System.Drawing.Color.Red;
+            this.r_8.Location = new System.Drawing.Point(76, 89);
+            this.r_8.Name = "r_8";
+            this.r_8.Size = new System.Drawing.Size(29, 29);
+            this.r_8.TabIndex = 14;
+            this.r_8.TextChanged += new System.EventHandler(this.r_8_TextChanged);
             // 
-            // textBox10
+            // r_7
             // 
-            this.textBox10.Location = new System.Drawing.Point(41, 89);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(29, 29);
-            this.textBox10.TabIndex = 13;
+            this.r_7.BackColor = System.Drawing.Color.Red;
+            this.r_7.Location = new System.Drawing.Point(41, 89);
+            this.r_7.Name = "r_7";
+            this.r_7.Size = new System.Drawing.Size(29, 29);
+            this.r_7.TabIndex = 13;
+            this.r_7.TextChanged += new System.EventHandler(this.r_7_TextChanged);
             // 
-            // textBox11
+            // r_6
             // 
-            this.textBox11.Location = new System.Drawing.Point(6, 89);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(29, 29);
-            this.textBox11.TabIndex = 12;
+            this.r_6.BackColor = System.Drawing.Color.Red;
+            this.r_6.Location = new System.Drawing.Point(6, 89);
+            this.r_6.Name = "r_6";
+            this.r_6.Size = new System.Drawing.Size(29, 29);
+            this.r_6.TabIndex = 12;
+            this.r_6.TextChanged += new System.EventHandler(this.r_6_TextChanged);
             // 
-            // textBox12
+            // r_5
             // 
-            this.textBox12.Location = new System.Drawing.Point(76, 54);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(29, 29);
-            this.textBox12.TabIndex = 11;
+            this.r_5.BackColor = System.Drawing.Color.Red;
+            this.r_5.Location = new System.Drawing.Point(76, 54);
+            this.r_5.Name = "r_5";
+            this.r_5.Size = new System.Drawing.Size(29, 29);
+            this.r_5.TabIndex = 11;
+            this.r_5.TextChanged += new System.EventHandler(this.r_5_TextChanged);
             // 
-            // textBox13
+            // r_4
             // 
-            this.textBox13.Location = new System.Drawing.Point(41, 54);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(29, 29);
-            this.textBox13.TabIndex = 10;
+            this.r_4.BackColor = System.Drawing.Color.Red;
+            this.r_4.Location = new System.Drawing.Point(41, 54);
+            this.r_4.Name = "r_4";
+            this.r_4.Size = new System.Drawing.Size(29, 29);
+            this.r_4.TabIndex = 10;
+            this.r_4.TextChanged += new System.EventHandler(this.r_4_TextChanged);
             // 
-            // textBox14
+            // r_3
             // 
-            this.textBox14.Location = new System.Drawing.Point(6, 54);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(29, 29);
-            this.textBox14.TabIndex = 9;
+            this.r_3.BackColor = System.Drawing.Color.Red;
+            this.r_3.Location = new System.Drawing.Point(6, 54);
+            this.r_3.Name = "r_3";
+            this.r_3.Size = new System.Drawing.Size(29, 29);
+            this.r_3.TabIndex = 9;
+            this.r_3.TextChanged += new System.EventHandler(this.r_3_TextChanged);
             // 
-            // textBox15
+            // r_1
             // 
-            this.textBox15.Location = new System.Drawing.Point(41, 19);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(29, 29);
-            this.textBox15.TabIndex = 8;
+            this.r_1.BackColor = System.Drawing.Color.Red;
+            this.r_1.Location = new System.Drawing.Point(41, 19);
+            this.r_1.Name = "r_1";
+            this.r_1.Size = new System.Drawing.Size(29, 29);
+            this.r_1.TabIndex = 8;
+            this.r_1.TextChanged += new System.EventHandler(this.r_1_TextChanged);
             // 
-            // textBox16
+            // r_2
             // 
-            this.textBox16.Location = new System.Drawing.Point(76, 19);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(29, 29);
-            this.textBox16.TabIndex = 7;
+            this.r_2.BackColor = System.Drawing.Color.Red;
+            this.r_2.Location = new System.Drawing.Point(76, 19);
+            this.r_2.Name = "r_2";
+            this.r_2.Size = new System.Drawing.Size(29, 29);
+            this.r_2.TabIndex = 7;
+            this.r_2.TextChanged += new System.EventHandler(this.r_2_TextChanged);
             // 
-            // textBox17
+            // r_0
             // 
-            this.textBox17.Location = new System.Drawing.Point(6, 19);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(29, 29);
-            this.textBox17.TabIndex = 6;
+            this.r_0.BackColor = System.Drawing.Color.Red;
+            this.r_0.Location = new System.Drawing.Point(6, 19);
+            this.r_0.Name = "r_0";
+            this.r_0.Size = new System.Drawing.Size(29, 29);
+            this.r_0.TabIndex = 6;
+            this.r_0.TextChanged += new System.EventHandler(this.r_0_TextChanged);
             // 
             // groupBox2
             // 
             this.groupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox2.Controls.Add(this.textBox18);
-            this.groupBox2.Controls.Add(this.textBox19);
-            this.groupBox2.Controls.Add(this.textBox20);
-            this.groupBox2.Controls.Add(this.textBox21);
-            this.groupBox2.Controls.Add(this.textBox22);
-            this.groupBox2.Controls.Add(this.textBox23);
-            this.groupBox2.Controls.Add(this.textBox24);
-            this.groupBox2.Controls.Add(this.textBox25);
-            this.groupBox2.Controls.Add(this.textBox26);
+            this.groupBox2.Controls.Add(this.l_8);
+            this.groupBox2.Controls.Add(this.l_7);
+            this.groupBox2.Controls.Add(this.l_6);
+            this.groupBox2.Controls.Add(this.l_5);
+            this.groupBox2.Controls.Add(this.l_4);
+            this.groupBox2.Controls.Add(this.l_3);
+            this.groupBox2.Controls.Add(this.l_1);
+            this.groupBox2.Controls.Add(this.l_2);
+            this.groupBox2.Controls.Add(this.l_0);
             this.groupBox2.Font = new System.Drawing.Font("微軟正黑體", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.groupBox2.Location = new System.Drawing.Point(102, 304);
             this.groupBox2.Name = "groupBox2";
@@ -357,81 +373,99 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Face_L";
             // 
-            // textBox18
+            // l_8
             // 
-            this.textBox18.Location = new System.Drawing.Point(76, 89);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(29, 29);
-            this.textBox18.TabIndex = 14;
+            this.l_8.BackColor = System.Drawing.Color.Blue;
+            this.l_8.Location = new System.Drawing.Point(76, 89);
+            this.l_8.Name = "l_8";
+            this.l_8.Size = new System.Drawing.Size(29, 29);
+            this.l_8.TabIndex = 14;
+            this.l_8.TextChanged += new System.EventHandler(this.l_8_TextChanged);
             // 
-            // textBox19
+            // l_7
             // 
-            this.textBox19.Location = new System.Drawing.Point(41, 89);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(29, 29);
-            this.textBox19.TabIndex = 13;
+            this.l_7.BackColor = System.Drawing.Color.Blue;
+            this.l_7.Location = new System.Drawing.Point(41, 89);
+            this.l_7.Name = "l_7";
+            this.l_7.Size = new System.Drawing.Size(29, 29);
+            this.l_7.TabIndex = 13;
+            this.l_7.TextChanged += new System.EventHandler(this.l_7_TextChanged);
             // 
-            // textBox20
+            // l_6
             // 
-            this.textBox20.Location = new System.Drawing.Point(6, 89);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(29, 29);
-            this.textBox20.TabIndex = 12;
+            this.l_6.BackColor = System.Drawing.Color.Blue;
+            this.l_6.Location = new System.Drawing.Point(6, 89);
+            this.l_6.Name = "l_6";
+            this.l_6.Size = new System.Drawing.Size(29, 29);
+            this.l_6.TabIndex = 12;
+            this.l_6.TextChanged += new System.EventHandler(this.l_6_TextChanged);
             // 
-            // textBox21
+            // l_5
             // 
-            this.textBox21.Location = new System.Drawing.Point(76, 54);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(29, 29);
-            this.textBox21.TabIndex = 11;
+            this.l_5.BackColor = System.Drawing.Color.Blue;
+            this.l_5.Location = new System.Drawing.Point(76, 54);
+            this.l_5.Name = "l_5";
+            this.l_5.Size = new System.Drawing.Size(29, 29);
+            this.l_5.TabIndex = 11;
+            this.l_5.TextChanged += new System.EventHandler(this.l_5_TextChanged);
             // 
-            // textBox22
+            // l_4
             // 
-            this.textBox22.Location = new System.Drawing.Point(41, 54);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(29, 29);
-            this.textBox22.TabIndex = 10;
+            this.l_4.BackColor = System.Drawing.Color.Blue;
+            this.l_4.Location = new System.Drawing.Point(41, 54);
+            this.l_4.Name = "l_4";
+            this.l_4.Size = new System.Drawing.Size(29, 29);
+            this.l_4.TabIndex = 10;
+            this.l_4.TextChanged += new System.EventHandler(this.l_4_TextChanged);
             // 
-            // textBox23
+            // l_3
             // 
-            this.textBox23.Location = new System.Drawing.Point(6, 54);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(29, 29);
-            this.textBox23.TabIndex = 9;
+            this.l_3.BackColor = System.Drawing.Color.Blue;
+            this.l_3.Location = new System.Drawing.Point(6, 54);
+            this.l_3.Name = "l_3";
+            this.l_3.Size = new System.Drawing.Size(29, 29);
+            this.l_3.TabIndex = 9;
+            this.l_3.TextChanged += new System.EventHandler(this.l_3_TextChanged);
             // 
-            // textBox24
+            // l_1
             // 
-            this.textBox24.Location = new System.Drawing.Point(41, 19);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(29, 29);
-            this.textBox24.TabIndex = 8;
+            this.l_1.BackColor = System.Drawing.Color.Blue;
+            this.l_1.Location = new System.Drawing.Point(41, 19);
+            this.l_1.Name = "l_1";
+            this.l_1.Size = new System.Drawing.Size(29, 29);
+            this.l_1.TabIndex = 8;
+            this.l_1.TextChanged += new System.EventHandler(this.l_1_TextChanged);
             // 
-            // textBox25
+            // l_2
             // 
-            this.textBox25.Location = new System.Drawing.Point(76, 19);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(29, 29);
-            this.textBox25.TabIndex = 7;
+            this.l_2.BackColor = System.Drawing.Color.Blue;
+            this.l_2.Location = new System.Drawing.Point(76, 19);
+            this.l_2.Name = "l_2";
+            this.l_2.Size = new System.Drawing.Size(29, 29);
+            this.l_2.TabIndex = 7;
+            this.l_2.TextChanged += new System.EventHandler(this.l_2_TextChanged);
             // 
-            // textBox26
+            // l_0
             // 
-            this.textBox26.Location = new System.Drawing.Point(6, 19);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(29, 29);
-            this.textBox26.TabIndex = 6;
+            this.l_0.BackColor = System.Drawing.Color.Blue;
+            this.l_0.Location = new System.Drawing.Point(6, 19);
+            this.l_0.Name = "l_0";
+            this.l_0.Size = new System.Drawing.Size(29, 29);
+            this.l_0.TabIndex = 6;
+            this.l_0.TextChanged += new System.EventHandler(this.l_0_TextChanged);
             // 
             // groupBox3
             // 
             this.groupBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox3.Controls.Add(this.textBox27);
-            this.groupBox3.Controls.Add(this.textBox28);
-            this.groupBox3.Controls.Add(this.textBox29);
-            this.groupBox3.Controls.Add(this.textBox30);
-            this.groupBox3.Controls.Add(this.textBox31);
-            this.groupBox3.Controls.Add(this.textBox32);
-            this.groupBox3.Controls.Add(this.textBox33);
-            this.groupBox3.Controls.Add(this.textBox34);
-            this.groupBox3.Controls.Add(this.textBox35);
+            this.groupBox3.Controls.Add(this.d_8);
+            this.groupBox3.Controls.Add(this.d_7);
+            this.groupBox3.Controls.Add(this.d_6);
+            this.groupBox3.Controls.Add(this.d_5);
+            this.groupBox3.Controls.Add(this.d_4);
+            this.groupBox3.Controls.Add(this.d_3);
+            this.groupBox3.Controls.Add(this.d_1);
+            this.groupBox3.Controls.Add(this.d_2);
+            this.groupBox3.Controls.Add(this.d_0);
             this.groupBox3.Font = new System.Drawing.Font("微軟正黑體", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.groupBox3.Location = new System.Drawing.Point(220, 437);
             this.groupBox3.Name = "groupBox3";
@@ -440,81 +474,99 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Face_D";
             // 
-            // textBox27
+            // d_8
             // 
-            this.textBox27.Location = new System.Drawing.Point(76, 89);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(29, 29);
-            this.textBox27.TabIndex = 14;
+            this.d_8.BackColor = System.Drawing.Color.Green;
+            this.d_8.Location = new System.Drawing.Point(76, 89);
+            this.d_8.Name = "d_8";
+            this.d_8.Size = new System.Drawing.Size(29, 29);
+            this.d_8.TabIndex = 14;
+            this.d_8.TextChanged += new System.EventHandler(this.d_8_TextChanged);
             // 
-            // textBox28
+            // d_7
             // 
-            this.textBox28.Location = new System.Drawing.Point(41, 89);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(29, 29);
-            this.textBox28.TabIndex = 13;
+            this.d_7.BackColor = System.Drawing.Color.Green;
+            this.d_7.Location = new System.Drawing.Point(41, 89);
+            this.d_7.Name = "d_7";
+            this.d_7.Size = new System.Drawing.Size(29, 29);
+            this.d_7.TabIndex = 13;
+            this.d_7.TextChanged += new System.EventHandler(this.d_7_TextChanged);
             // 
-            // textBox29
+            // d_6
             // 
-            this.textBox29.Location = new System.Drawing.Point(6, 89);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(29, 29);
-            this.textBox29.TabIndex = 12;
+            this.d_6.BackColor = System.Drawing.Color.Green;
+            this.d_6.Location = new System.Drawing.Point(6, 89);
+            this.d_6.Name = "d_6";
+            this.d_6.Size = new System.Drawing.Size(29, 29);
+            this.d_6.TabIndex = 12;
+            this.d_6.TextChanged += new System.EventHandler(this.d_6_TextChanged);
             // 
-            // textBox30
+            // d_5
             // 
-            this.textBox30.Location = new System.Drawing.Point(76, 54);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(29, 29);
-            this.textBox30.TabIndex = 11;
+            this.d_5.BackColor = System.Drawing.Color.Green;
+            this.d_5.Location = new System.Drawing.Point(76, 54);
+            this.d_5.Name = "d_5";
+            this.d_5.Size = new System.Drawing.Size(29, 29);
+            this.d_5.TabIndex = 11;
+            this.d_5.TextChanged += new System.EventHandler(this.d_5_TextChanged);
             // 
-            // textBox31
+            // d_4
             // 
-            this.textBox31.Location = new System.Drawing.Point(41, 54);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(29, 29);
-            this.textBox31.TabIndex = 10;
+            this.d_4.BackColor = System.Drawing.Color.Green;
+            this.d_4.Location = new System.Drawing.Point(41, 54);
+            this.d_4.Name = "d_4";
+            this.d_4.Size = new System.Drawing.Size(29, 29);
+            this.d_4.TabIndex = 10;
+            this.d_4.TextChanged += new System.EventHandler(this.d_4_TextChanged);
             // 
-            // textBox32
+            // d_3
             // 
-            this.textBox32.Location = new System.Drawing.Point(6, 54);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(29, 29);
-            this.textBox32.TabIndex = 9;
+            this.d_3.BackColor = System.Drawing.Color.Green;
+            this.d_3.Location = new System.Drawing.Point(6, 54);
+            this.d_3.Name = "d_3";
+            this.d_3.Size = new System.Drawing.Size(29, 29);
+            this.d_3.TabIndex = 9;
+            this.d_3.TextChanged += new System.EventHandler(this.d_3_TextChanged);
             // 
-            // textBox33
+            // d_1
             // 
-            this.textBox33.Location = new System.Drawing.Point(41, 19);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(29, 29);
-            this.textBox33.TabIndex = 8;
+            this.d_1.BackColor = System.Drawing.Color.Green;
+            this.d_1.Location = new System.Drawing.Point(41, 19);
+            this.d_1.Name = "d_1";
+            this.d_1.Size = new System.Drawing.Size(29, 29);
+            this.d_1.TabIndex = 8;
+            this.d_1.TextChanged += new System.EventHandler(this.d_1_TextChanged);
             // 
-            // textBox34
+            // d_2
             // 
-            this.textBox34.Location = new System.Drawing.Point(76, 19);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(29, 29);
-            this.textBox34.TabIndex = 7;
+            this.d_2.BackColor = System.Drawing.Color.Green;
+            this.d_2.Location = new System.Drawing.Point(76, 19);
+            this.d_2.Name = "d_2";
+            this.d_2.Size = new System.Drawing.Size(29, 29);
+            this.d_2.TabIndex = 7;
+            this.d_2.TextChanged += new System.EventHandler(this.d_2_TextChanged);
             // 
-            // textBox35
+            // d_0
             // 
-            this.textBox35.Location = new System.Drawing.Point(6, 19);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(29, 29);
-            this.textBox35.TabIndex = 6;
+            this.d_0.BackColor = System.Drawing.Color.Green;
+            this.d_0.Location = new System.Drawing.Point(6, 19);
+            this.d_0.Name = "d_0";
+            this.d_0.Size = new System.Drawing.Size(29, 29);
+            this.d_0.TabIndex = 6;
+            this.d_0.TextChanged += new System.EventHandler(this.d_0_TextChanged);
             // 
             // groupBox4
             // 
             this.groupBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox4.Controls.Add(this.textBox36);
-            this.groupBox4.Controls.Add(this.textBox37);
-            this.groupBox4.Controls.Add(this.textBox38);
-            this.groupBox4.Controls.Add(this.textBox39);
-            this.groupBox4.Controls.Add(this.textBox40);
-            this.groupBox4.Controls.Add(this.textBox41);
-            this.groupBox4.Controls.Add(this.textBox42);
-            this.groupBox4.Controls.Add(this.textBox43);
-            this.groupBox4.Controls.Add(this.textBox44);
+            this.groupBox4.Controls.Add(this.u_8);
+            this.groupBox4.Controls.Add(this.u_7);
+            this.groupBox4.Controls.Add(this.u_6);
+            this.groupBox4.Controls.Add(this.u_5);
+            this.groupBox4.Controls.Add(this.u_4);
+            this.groupBox4.Controls.Add(this.u_3);
+            this.groupBox4.Controls.Add(this.u_1);
+            this.groupBox4.Controls.Add(this.u_2);
+            this.groupBox4.Controls.Add(this.u_0);
             this.groupBox4.Font = new System.Drawing.Font("微軟正黑體", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.groupBox4.Location = new System.Drawing.Point(220, 171);
             this.groupBox4.Name = "groupBox4";
@@ -523,81 +575,99 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Face_U";
             // 
-            // textBox36
+            // u_8
             // 
-            this.textBox36.Location = new System.Drawing.Point(76, 89);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(29, 29);
-            this.textBox36.TabIndex = 14;
+            this.u_8.BackColor = System.Drawing.Color.Yellow;
+            this.u_8.Location = new System.Drawing.Point(76, 89);
+            this.u_8.Name = "u_8";
+            this.u_8.Size = new System.Drawing.Size(29, 29);
+            this.u_8.TabIndex = 14;
+            this.u_8.TextChanged += new System.EventHandler(this.u_8_TextChanged);
             // 
-            // textBox37
+            // u_7
             // 
-            this.textBox37.Location = new System.Drawing.Point(41, 89);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(29, 29);
-            this.textBox37.TabIndex = 13;
+            this.u_7.BackColor = System.Drawing.Color.Yellow;
+            this.u_7.Location = new System.Drawing.Point(41, 89);
+            this.u_7.Name = "u_7";
+            this.u_7.Size = new System.Drawing.Size(29, 29);
+            this.u_7.TabIndex = 13;
+            this.u_7.TextChanged += new System.EventHandler(this.u_7_TextChanged);
             // 
-            // textBox38
+            // u_6
             // 
-            this.textBox38.Location = new System.Drawing.Point(6, 89);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(29, 29);
-            this.textBox38.TabIndex = 12;
+            this.u_6.BackColor = System.Drawing.Color.Yellow;
+            this.u_6.Location = new System.Drawing.Point(6, 89);
+            this.u_6.Name = "u_6";
+            this.u_6.Size = new System.Drawing.Size(29, 29);
+            this.u_6.TabIndex = 12;
+            this.u_6.TextChanged += new System.EventHandler(this.u_6_TextChanged);
             // 
-            // textBox39
+            // u_5
             // 
-            this.textBox39.Location = new System.Drawing.Point(76, 54);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(29, 29);
-            this.textBox39.TabIndex = 11;
+            this.u_5.BackColor = System.Drawing.Color.Yellow;
+            this.u_5.Location = new System.Drawing.Point(76, 54);
+            this.u_5.Name = "u_5";
+            this.u_5.Size = new System.Drawing.Size(29, 29);
+            this.u_5.TabIndex = 11;
+            this.u_5.TextChanged += new System.EventHandler(this.u_5_TextChanged);
             // 
-            // textBox40
+            // u_4
             // 
-            this.textBox40.Location = new System.Drawing.Point(41, 54);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(29, 29);
-            this.textBox40.TabIndex = 10;
+            this.u_4.BackColor = System.Drawing.Color.Yellow;
+            this.u_4.Location = new System.Drawing.Point(41, 54);
+            this.u_4.Name = "u_4";
+            this.u_4.Size = new System.Drawing.Size(29, 29);
+            this.u_4.TabIndex = 10;
+            this.u_4.TextChanged += new System.EventHandler(this.u_4_TextChanged);
             // 
-            // textBox41
+            // u_3
             // 
-            this.textBox41.Location = new System.Drawing.Point(6, 54);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(29, 29);
-            this.textBox41.TabIndex = 9;
+            this.u_3.BackColor = System.Drawing.Color.Yellow;
+            this.u_3.Location = new System.Drawing.Point(6, 54);
+            this.u_3.Name = "u_3";
+            this.u_3.Size = new System.Drawing.Size(29, 29);
+            this.u_3.TabIndex = 9;
+            this.u_3.TextChanged += new System.EventHandler(this.u_3_TextChanged);
             // 
-            // textBox42
+            // u_1
             // 
-            this.textBox42.Location = new System.Drawing.Point(41, 19);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(29, 29);
-            this.textBox42.TabIndex = 8;
+            this.u_1.BackColor = System.Drawing.Color.Yellow;
+            this.u_1.Location = new System.Drawing.Point(41, 19);
+            this.u_1.Name = "u_1";
+            this.u_1.Size = new System.Drawing.Size(29, 29);
+            this.u_1.TabIndex = 8;
+            this.u_1.TextChanged += new System.EventHandler(this.u_1_TextChanged);
             // 
-            // textBox43
+            // u_2
             // 
-            this.textBox43.Location = new System.Drawing.Point(76, 19);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(29, 29);
-            this.textBox43.TabIndex = 7;
+            this.u_2.BackColor = System.Drawing.Color.Yellow;
+            this.u_2.Location = new System.Drawing.Point(76, 19);
+            this.u_2.Name = "u_2";
+            this.u_2.Size = new System.Drawing.Size(29, 29);
+            this.u_2.TabIndex = 7;
+            this.u_2.TextChanged += new System.EventHandler(this.u_2_TextChanged);
             // 
-            // textBox44
+            // u_0
             // 
-            this.textBox44.Location = new System.Drawing.Point(6, 19);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(29, 29);
-            this.textBox44.TabIndex = 6;
+            this.u_0.BackColor = System.Drawing.Color.Yellow;
+            this.u_0.Location = new System.Drawing.Point(6, 19);
+            this.u_0.Name = "u_0";
+            this.u_0.Size = new System.Drawing.Size(29, 29);
+            this.u_0.TabIndex = 6;
+            this.u_0.TextChanged += new System.EventHandler(this.u_0_TextChanged);
             // 
             // groupBox5
             // 
             this.groupBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.groupBox5.Controls.Add(this.textBox45);
-            this.groupBox5.Controls.Add(this.textBox46);
-            this.groupBox5.Controls.Add(this.textBox47);
-            this.groupBox5.Controls.Add(this.textBox48);
-            this.groupBox5.Controls.Add(this.textBox49);
-            this.groupBox5.Controls.Add(this.textBox50);
-            this.groupBox5.Controls.Add(this.textBox51);
-            this.groupBox5.Controls.Add(this.textBox52);
-            this.groupBox5.Controls.Add(this.textBox53);
+            this.groupBox5.Controls.Add(this.b_8);
+            this.groupBox5.Controls.Add(this.b_7);
+            this.groupBox5.Controls.Add(this.b_6);
+            this.groupBox5.Controls.Add(this.b_5);
+            this.groupBox5.Controls.Add(this.b_4);
+            this.groupBox5.Controls.Add(this.b_3);
+            this.groupBox5.Controls.Add(this.b_1);
+            this.groupBox5.Controls.Add(this.b_2);
+            this.groupBox5.Controls.Add(this.b_0);
             this.groupBox5.Font = new System.Drawing.Font("微軟正黑體", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.groupBox5.Location = new System.Drawing.Point(220, 38);
             this.groupBox5.Name = "groupBox5";
@@ -606,71 +676,90 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Face_B";
             // 
-            // textBox45
+            // b_8
             // 
-            this.textBox45.Location = new System.Drawing.Point(76, 89);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(29, 29);
-            this.textBox45.TabIndex = 14;
+            this.b_8.BackColor = System.Drawing.Color.Orange;
+            this.b_8.Location = new System.Drawing.Point(76, 89);
+            this.b_8.Name = "b_8";
+            this.b_8.Size = new System.Drawing.Size(29, 29);
+            this.b_8.TabIndex = 14;
+            this.b_8.TextChanged += new System.EventHandler(this.b_8_TextChanged);
             // 
-            // textBox46
+            // b_7
             // 
-            this.textBox46.Location = new System.Drawing.Point(41, 89);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(29, 29);
-            this.textBox46.TabIndex = 13;
+            this.b_7.BackColor = System.Drawing.Color.Orange;
+            this.b_7.Location = new System.Drawing.Point(41, 89);
+            this.b_7.Name = "b_7";
+            this.b_7.Size = new System.Drawing.Size(29, 29);
+            this.b_7.TabIndex = 13;
+            this.b_7.TextChanged += new System.EventHandler(this.b_7_TextChanged);
             // 
-            // textBox47
+            // b_6
             // 
-            this.textBox47.Location = new System.Drawing.Point(6, 89);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(29, 29);
-            this.textBox47.TabIndex = 12;
+            this.b_6.BackColor = System.Drawing.Color.Orange;
+            this.b_6.Location = new System.Drawing.Point(6, 89);
+            this.b_6.Name = "b_6";
+            this.b_6.Size = new System.Drawing.Size(29, 29);
+            this.b_6.TabIndex = 12;
+            this.b_6.TextChanged += new System.EventHandler(this.b_6_TextChanged);
             // 
-            // textBox48
+            // b_5
             // 
-            this.textBox48.Location = new System.Drawing.Point(76, 54);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(29, 29);
-            this.textBox48.TabIndex = 11;
+            this.b_5.BackColor = System.Drawing.Color.Orange;
+            this.b_5.Location = new System.Drawing.Point(76, 54);
+            this.b_5.Name = "b_5";
+            this.b_5.Size = new System.Drawing.Size(29, 29);
+            this.b_5.TabIndex = 11;
+            this.b_5.TextChanged += new System.EventHandler(this.b_5_TextChanged);
             // 
-            // textBox49
+            // b_4
             // 
-            this.textBox49.Location = new System.Drawing.Point(41, 54);
-            this.textBox49.Name = "textBox49";
-            this.textBox49.Size = new System.Drawing.Size(29, 29);
-            this.textBox49.TabIndex = 10;
+            this.b_4.BackColor = System.Drawing.Color.Orange;
+            this.b_4.Location = new System.Drawing.Point(41, 54);
+            this.b_4.Name = "b_4";
+            this.b_4.Size = new System.Drawing.Size(29, 29);
+            this.b_4.TabIndex = 10;
+            this.b_4.TextChanged += new System.EventHandler(this.b_4_TextChanged);
             // 
-            // textBox50
+            // b_3
             // 
-            this.textBox50.Location = new System.Drawing.Point(6, 54);
-            this.textBox50.Name = "textBox50";
-            this.textBox50.Size = new System.Drawing.Size(29, 29);
-            this.textBox50.TabIndex = 9;
+            this.b_3.BackColor = System.Drawing.Color.Orange;
+            this.b_3.Location = new System.Drawing.Point(6, 54);
+            this.b_3.Name = "b_3";
+            this.b_3.Size = new System.Drawing.Size(29, 29);
+            this.b_3.TabIndex = 9;
+            this.b_3.TextChanged += new System.EventHandler(this.b_3_TextChanged);
             // 
-            // textBox51
+            // b_1
             // 
-            this.textBox51.Location = new System.Drawing.Point(41, 19);
-            this.textBox51.Name = "textBox51";
-            this.textBox51.Size = new System.Drawing.Size(29, 29);
-            this.textBox51.TabIndex = 8;
+            this.b_1.BackColor = System.Drawing.Color.Orange;
+            this.b_1.Location = new System.Drawing.Point(41, 19);
+            this.b_1.Name = "b_1";
+            this.b_1.Size = new System.Drawing.Size(29, 29);
+            this.b_1.TabIndex = 8;
+            this.b_1.TextChanged += new System.EventHandler(this.b_1_TextChanged);
             // 
-            // textBox52
+            // b_2
             // 
-            this.textBox52.Location = new System.Drawing.Point(76, 19);
-            this.textBox52.Name = "textBox52";
-            this.textBox52.Size = new System.Drawing.Size(29, 29);
-            this.textBox52.TabIndex = 7;
+            this.b_2.BackColor = System.Drawing.Color.Orange;
+            this.b_2.Location = new System.Drawing.Point(76, 19);
+            this.b_2.Name = "b_2";
+            this.b_2.Size = new System.Drawing.Size(29, 29);
+            this.b_2.TabIndex = 7;
+            this.b_2.TextChanged += new System.EventHandler(this.b_2_TextChanged);
             // 
-            // textBox53
+            // b_0
             // 
-            this.textBox53.Location = new System.Drawing.Point(6, 19);
-            this.textBox53.Name = "textBox53";
-            this.textBox53.Size = new System.Drawing.Size(29, 29);
-            this.textBox53.TabIndex = 6;
+            this.b_0.BackColor = System.Drawing.Color.Orange;
+            this.b_0.Location = new System.Drawing.Point(6, 19);
+            this.b_0.Name = "b_0";
+            this.b_0.Size = new System.Drawing.Size(29, 29);
+            this.b_0.TabIndex = 6;
+            this.b_0.TextChanged += new System.EventHandler(this.b_0_TextChanged);
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.label1);
             this.groupBox6.Controls.Add(this.groupBox5);
             this.groupBox6.Controls.Add(this.groupBox4);
             this.groupBox6.Controls.Add(this.groupBox3);
@@ -684,107 +773,22 @@
             this.groupBox6.TabIndex = 16;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "模擬區";
-            this.groupBox6.Enter += new System.EventHandler(this.groupBox6_Enter);
             // 
-            // Test_block
+            // label1
             // 
-            this.Test_block.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Test_block.Controls.Add(this.t_8);
-            this.Test_block.Controls.Add(this.t_7);
-            this.Test_block.Controls.Add(this.t_6);
-            this.Test_block.Controls.Add(this.t_5);
-            this.Test_block.Controls.Add(this.t_4);
-            this.Test_block.Controls.Add(this.t_3);
-            this.Test_block.Controls.Add(this.t_1);
-            this.Test_block.Controls.Add(this.t_2);
-            this.Test_block.Controls.Add(this.t_0);
-            this.Test_block.Font = new System.Drawing.Font("微軟正黑體", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Test_block.Location = new System.Drawing.Point(834, 437);
-            this.Test_block.Name = "Test_block";
-            this.Test_block.Size = new System.Drawing.Size(112, 127);
-            this.Test_block.TabIndex = 16;
-            this.Test_block.TabStop = false;
-            this.Test_block.Text = "Test_block";
-            this.Test_block.Enter += new System.EventHandler(this.Test_block_Enter);
-            // 
-            // t_8
-            // 
-            this.t_8.Location = new System.Drawing.Point(76, 89);
-            this.t_8.MaxLength = 1;
-            this.t_8.Name = "t_8";
-            this.t_8.Size = new System.Drawing.Size(29, 29);
-            this.t_8.TabIndex = 14;
-            // 
-            // t_7
-            // 
-            this.t_7.Location = new System.Drawing.Point(41, 89);
-            this.t_7.MaxLength = 1;
-            this.t_7.Name = "t_7";
-            this.t_7.Size = new System.Drawing.Size(29, 29);
-            this.t_7.TabIndex = 13;
-            // 
-            // t_6
-            // 
-            this.t_6.Location = new System.Drawing.Point(6, 89);
-            this.t_6.MaxLength = 1;
-            this.t_6.Name = "t_6";
-            this.t_6.Size = new System.Drawing.Size(29, 29);
-            this.t_6.TabIndex = 12;
-            // 
-            // t_5
-            // 
-            this.t_5.Location = new System.Drawing.Point(76, 54);
-            this.t_5.MaxLength = 1;
-            this.t_5.Name = "t_5";
-            this.t_5.Size = new System.Drawing.Size(29, 29);
-            this.t_5.TabIndex = 11;
-            // 
-            // t_4
-            // 
-            this.t_4.Location = new System.Drawing.Point(41, 54);
-            this.t_4.MaxLength = 1;
-            this.t_4.Name = "t_4";
-            this.t_4.Size = new System.Drawing.Size(29, 29);
-            this.t_4.TabIndex = 10;
-            // 
-            // t_3
-            // 
-            this.t_3.Location = new System.Drawing.Point(6, 54);
-            this.t_3.MaxLength = 1;
-            this.t_3.Name = "t_3";
-            this.t_3.Size = new System.Drawing.Size(29, 29);
-            this.t_3.TabIndex = 9;
-            // 
-            // t_1
-            // 
-            this.t_1.Location = new System.Drawing.Point(41, 19);
-            this.t_1.MaxLength = 1;
-            this.t_1.Name = "t_1";
-            this.t_1.Size = new System.Drawing.Size(29, 29);
-            this.t_1.TabIndex = 8;
-            // 
-            // t_2
-            // 
-            this.t_2.Location = new System.Drawing.Point(76, 19);
-            this.t_2.MaxLength = 1;
-            this.t_2.Name = "t_2";
-            this.t_2.Size = new System.Drawing.Size(29, 29);
-            this.t_2.TabIndex = 7;
-            // 
-            // t_0
-            // 
-            this.t_0.Location = new System.Drawing.Point(6, 19);
-            this.t_0.MaxLength = 1;
-            this.t_0.Name = "t_0";
-            this.t_0.Size = new System.Drawing.Size(29, 29);
-            this.t_0.TabIndex = 6;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("微軟正黑體", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(445, 38);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(132, 168);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "W：White\r\nR：Red\r\nG：Green\r\nB：Blue\r\nY：Yellow\r\nO：Orange";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1381, 666);
-            this.Controls.Add(this.Test_block);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.D);
             this.Controls.Add(this.R);
@@ -793,8 +797,7 @@
             this.Controls.Add(this.B);
             this.Controls.Add(this.F);
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Magic Cube Solution";
             this.Face_F.ResumeLayout(false);
             this.Face_F.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -808,8 +811,7 @@
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);
-            this.Test_block.ResumeLayout(false);
-            this.Test_block.PerformLayout();
+            this.groupBox6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -824,75 +826,66 @@
         private System.Windows.Forms.Button D;
         private System.Windows.Forms.TextBox f_0;
         private System.Windows.Forms.GroupBox Face_F;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox f_8;
+        private System.Windows.Forms.TextBox f_7;
+        private System.Windows.Forms.TextBox f_6;
+        private System.Windows.Forms.TextBox f_5;
+        private System.Windows.Forms.TextBox f_4;
+        private System.Windows.Forms.TextBox f_3;
+        private System.Windows.Forms.TextBox f_1;
+        private System.Windows.Forms.TextBox f_2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox r_8;
+        private System.Windows.Forms.TextBox r_7;
+        private System.Windows.Forms.TextBox r_6;
+        private System.Windows.Forms.TextBox r_5;
+        private System.Windows.Forms.TextBox r_4;
+        private System.Windows.Forms.TextBox r_3;
+        private System.Windows.Forms.TextBox r_1;
+        private System.Windows.Forms.TextBox r_2;
+        private System.Windows.Forms.TextBox r_0;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox l_8;
+        private System.Windows.Forms.TextBox l_7;
+        private System.Windows.Forms.TextBox l_6;
+        private System.Windows.Forms.TextBox l_5;
+        private System.Windows.Forms.TextBox l_4;
+        private System.Windows.Forms.TextBox l_3;
+        private System.Windows.Forms.TextBox l_1;
+        private System.Windows.Forms.TextBox l_2;
+        private System.Windows.Forms.TextBox l_0;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.TextBox d_8;
+        private System.Windows.Forms.TextBox d_7;
+        private System.Windows.Forms.TextBox d_6;
+        private System.Windows.Forms.TextBox d_5;
+        private System.Windows.Forms.TextBox d_4;
+        private System.Windows.Forms.TextBox d_3;
+        private System.Windows.Forms.TextBox d_1;
+        private System.Windows.Forms.TextBox d_2;
+        private System.Windows.Forms.TextBox d_0;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox44;
+        private System.Windows.Forms.TextBox u_8;
+        private System.Windows.Forms.TextBox u_7;
+        private System.Windows.Forms.TextBox u_6;
+        private System.Windows.Forms.TextBox u_5;
+        private System.Windows.Forms.TextBox u_4;
+        private System.Windows.Forms.TextBox u_3;
+        private System.Windows.Forms.TextBox u_1;
+        private System.Windows.Forms.TextBox u_2;
+        private System.Windows.Forms.TextBox u_0;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox46;
-        private System.Windows.Forms.TextBox textBox47;
-        private System.Windows.Forms.TextBox textBox48;
-        private System.Windows.Forms.TextBox textBox49;
-        private System.Windows.Forms.TextBox textBox50;
-        private System.Windows.Forms.TextBox textBox51;
-        private System.Windows.Forms.TextBox textBox52;
-        private System.Windows.Forms.TextBox textBox53;
+        private System.Windows.Forms.TextBox b_8;
+        private System.Windows.Forms.TextBox b_7;
+        private System.Windows.Forms.TextBox b_6;
+        private System.Windows.Forms.TextBox b_5;
+        private System.Windows.Forms.TextBox b_4;
+        private System.Windows.Forms.TextBox b_3;
+        private System.Windows.Forms.TextBox b_1;
+        private System.Windows.Forms.TextBox b_2;
+        private System.Windows.Forms.TextBox b_0;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.GroupBox Test_block;
-        private System.Windows.Forms.TextBox t_8;
-        private System.Windows.Forms.TextBox t_7;
-        private System.Windows.Forms.TextBox t_6;
-        private System.Windows.Forms.TextBox t_5;
-        private System.Windows.Forms.TextBox t_4;
-        private System.Windows.Forms.TextBox t_3;
-        private System.Windows.Forms.TextBox t_1;
-        private System.Windows.Forms.TextBox t_2;
-        private System.Windows.Forms.TextBox t_0;
+        private System.Windows.Forms.Label label1;
     }
 }
 
