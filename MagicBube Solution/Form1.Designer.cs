@@ -95,6 +95,16 @@
             this.textBox52 = new System.Windows.Forms.TextBox();
             this.textBox53 = new System.Windows.Forms.TextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.Test_block = new System.Windows.Forms.GroupBox();
+            this.t_8 = new System.Windows.Forms.TextBox();
+            this.t_7 = new System.Windows.Forms.TextBox();
+            this.t_6 = new System.Windows.Forms.TextBox();
+            this.t_5 = new System.Windows.Forms.TextBox();
+            this.t_4 = new System.Windows.Forms.TextBox();
+            this.t_3 = new System.Windows.Forms.TextBox();
+            this.t_1 = new System.Windows.Forms.TextBox();
+            this.t_2 = new System.Windows.Forms.TextBox();
+            this.t_0 = new System.Windows.Forms.TextBox();
             this.Face_F.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -102,6 +112,7 @@
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.Test_block.SuspendLayout();
             this.SuspendLayout();
             // 
             // F
@@ -675,11 +686,105 @@
             this.groupBox6.Text = "模擬區";
             this.groupBox6.Enter += new System.EventHandler(this.groupBox6_Enter);
             // 
+            // Test_block
+            // 
+            this.Test_block.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Test_block.Controls.Add(this.t_8);
+            this.Test_block.Controls.Add(this.t_7);
+            this.Test_block.Controls.Add(this.t_6);
+            this.Test_block.Controls.Add(this.t_5);
+            this.Test_block.Controls.Add(this.t_4);
+            this.Test_block.Controls.Add(this.t_3);
+            this.Test_block.Controls.Add(this.t_1);
+            this.Test_block.Controls.Add(this.t_2);
+            this.Test_block.Controls.Add(this.t_0);
+            this.Test_block.Font = new System.Drawing.Font("微軟正黑體", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.Test_block.Location = new System.Drawing.Point(834, 437);
+            this.Test_block.Name = "Test_block";
+            this.Test_block.Size = new System.Drawing.Size(112, 127);
+            this.Test_block.TabIndex = 16;
+            this.Test_block.TabStop = false;
+            this.Test_block.Text = "Test_block";
+            this.Test_block.Enter += new System.EventHandler(this.Test_block_Enter);
+            // 
+            // t_8
+            // 
+            this.t_8.Location = new System.Drawing.Point(76, 89);
+            this.t_8.MaxLength = 1;
+            this.t_8.Name = "t_8";
+            this.t_8.Size = new System.Drawing.Size(29, 29);
+            this.t_8.TabIndex = 14;
+            // 
+            // t_7
+            // 
+            this.t_7.Location = new System.Drawing.Point(41, 89);
+            this.t_7.MaxLength = 1;
+            this.t_7.Name = "t_7";
+            this.t_7.Size = new System.Drawing.Size(29, 29);
+            this.t_7.TabIndex = 13;
+            // 
+            // t_6
+            // 
+            this.t_6.Location = new System.Drawing.Point(6, 89);
+            this.t_6.MaxLength = 1;
+            this.t_6.Name = "t_6";
+            this.t_6.Size = new System.Drawing.Size(29, 29);
+            this.t_6.TabIndex = 12;
+            // 
+            // t_5
+            // 
+            this.t_5.Location = new System.Drawing.Point(76, 54);
+            this.t_5.MaxLength = 1;
+            this.t_5.Name = "t_5";
+            this.t_5.Size = new System.Drawing.Size(29, 29);
+            this.t_5.TabIndex = 11;
+            // 
+            // t_4
+            // 
+            this.t_4.Location = new System.Drawing.Point(41, 54);
+            this.t_4.MaxLength = 1;
+            this.t_4.Name = "t_4";
+            this.t_4.Size = new System.Drawing.Size(29, 29);
+            this.t_4.TabIndex = 10;
+            // 
+            // t_3
+            // 
+            this.t_3.Location = new System.Drawing.Point(6, 54);
+            this.t_3.MaxLength = 1;
+            this.t_3.Name = "t_3";
+            this.t_3.Size = new System.Drawing.Size(29, 29);
+            this.t_3.TabIndex = 9;
+            // 
+            // t_1
+            // 
+            this.t_1.Location = new System.Drawing.Point(41, 19);
+            this.t_1.MaxLength = 1;
+            this.t_1.Name = "t_1";
+            this.t_1.Size = new System.Drawing.Size(29, 29);
+            this.t_1.TabIndex = 8;
+            // 
+            // t_2
+            // 
+            this.t_2.Location = new System.Drawing.Point(76, 19);
+            this.t_2.MaxLength = 1;
+            this.t_2.Name = "t_2";
+            this.t_2.Size = new System.Drawing.Size(29, 29);
+            this.t_2.TabIndex = 7;
+            // 
+            // t_0
+            // 
+            this.t_0.Location = new System.Drawing.Point(6, 19);
+            this.t_0.MaxLength = 1;
+            this.t_0.Name = "t_0";
+            this.t_0.Size = new System.Drawing.Size(29, 29);
+            this.t_0.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1381, 666);
+            this.Controls.Add(this.Test_block);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.D);
             this.Controls.Add(this.R);
@@ -703,6 +808,8 @@
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);
+            this.Test_block.ResumeLayout(false);
+            this.Test_block.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -776,6 +883,16 @@
         private System.Windows.Forms.TextBox textBox52;
         private System.Windows.Forms.TextBox textBox53;
         private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.GroupBox Test_block;
+        private System.Windows.Forms.TextBox t_8;
+        private System.Windows.Forms.TextBox t_7;
+        private System.Windows.Forms.TextBox t_6;
+        private System.Windows.Forms.TextBox t_5;
+        private System.Windows.Forms.TextBox t_4;
+        private System.Windows.Forms.TextBox t_3;
+        private System.Windows.Forms.TextBox t_1;
+        private System.Windows.Forms.TextBox t_2;
+        private System.Windows.Forms.TextBox t_0;
     }
 }
 
