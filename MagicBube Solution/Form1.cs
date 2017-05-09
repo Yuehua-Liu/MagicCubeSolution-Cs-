@@ -12,7 +12,19 @@ namespace MagicBube_Solution
 {
     public partial class Form1 : Form
     {
-        
+        /*
+        *******************************
+        *** 魔術方塊矩陣宣告 + 預設 ***
+        *******************************
+        */
+        string[] F_side = new string[9] {"W", "W", "W", "W", "W", "W", "W", "W", "W"};
+        string[] B_side = new string[9] {"O", "O", "O", "O", "O", "O", "O", "O", "O"};
+        string[] R_side = new string[9] {"R", "R", "R", "R", "R", "R", "R", "R", "R"};
+        string[] L_side = new string[9] {"B", "B", "B", "B", "B", "B", "B", "B", "B"};
+        string[] U_side = new string[9] {"Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y"};
+        string[] D_side = new string[9] {"G", "G", "G", "G", "G", "G", "G", "G", "G"};
+
+
         /*
         ********************************************************
         *** 這裡撰寫變色方法, 傳入(字串內容,物件本身) (成功) ***
@@ -62,10 +74,39 @@ namespace MagicBube_Solution
 
         }
 
+        /*
+        ***************************************
+        *** 這裡要撰寫 F,B,R,L,U,D 旋轉方法 ***
+        ***************************************
+        */
+        public void f_turn(int times)
+        {
+            string[] x = new string[1];
+            for(int j=0; j<times; j++)
+            {
+                //F面四角
+                x[0] = F_side[8];
+                F_side[8] = F_side[2];
+                F_side[2] = F_side[0];
+                F_side[0] = F_side[6];
+                F_side[6] = x[0];
+                //F面四邊
+                x[0] = F_side[5];
+                F_side[5] = F_side[1];
+                F_side[1] = F_side[3];
+                F_side[3] = F_side[7];
+                F_side[7] = x[0];
+
+            }
+        }
+
+
         public Form1()
         {
             InitializeComponent();
         }
+
+
 
         /*
         ************************************
@@ -342,5 +383,10 @@ namespace MagicBube_Solution
         {
             color_change(b_8.Text, b_8);
         }
+
+
+
+
+
     }
 }
