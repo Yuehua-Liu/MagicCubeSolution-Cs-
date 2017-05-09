@@ -13,7 +13,11 @@ namespace MagicBube_Solution
     public partial class Form1 : Form
     {
         
-        //這裡撰寫變色方法, 傳入(字串內容,物件本身) (成功)
+        /*
+        ********************************************************
+        *** 這裡撰寫變色方法, 傳入(字串內容,物件本身) (成功) ***
+        ********************************************************
+        */
         public static void color_change(string i, TextBox self)
         {
             char color_W = 'W', color_R = 'R', color_G = 'G', color_B = 'B', color_Y = 'Y', color_O = 'O';
@@ -26,7 +30,6 @@ namespace MagicBube_Solution
             else if (i[0] == color_W)
             {
                 self.BackColor = Color.White;
-
             }
             else if (i[0] == color_R)
             {
@@ -50,7 +53,12 @@ namespace MagicBube_Solution
             }
             self.Text = "";  //消除文字
 
-            //這邊之後應該還要再加"寫入矩陣"的功能
+            /*
+            *************************************************
+            ***    這邊之後應該還要再加"寫入矩陣"的功能   ***
+            *************************************************
+            */
+
 
         }
 
@@ -59,6 +67,12 @@ namespace MagicBube_Solution
             InitializeComponent();
         }
 
+        /*
+        ************************************
+        *** 這邊進行每個色塊方法引用設定 ***
+        ************************************        
+        */
+        //F面
         private void f_0_TextChanged(object sender, EventArgs e)
         {
             color_change(f_0.Text, f_0);
@@ -103,8 +117,7 @@ namespace MagicBube_Solution
         {
             color_change(f_8.Text, f_8);
         }
-
-
+        //R面
         private void r_0_TextChanged(object sender, EventArgs e)
         {
             color_change(r_0.Text, r_0);
@@ -149,8 +162,7 @@ namespace MagicBube_Solution
         {
             color_change(r_8.Text, r_8);
         }
-
-
+        //L面
         private void l_0_TextChanged(object sender, EventArgs e)
         {
             color_change(l_0.Text, l_0);
@@ -195,8 +207,7 @@ namespace MagicBube_Solution
         {
             color_change(l_8.Text, l_8);
         }
-
-
+        //D面
         private void d_0_TextChanged(object sender, EventArgs e)
         {
             color_change(d_0.Text, d_0);
@@ -241,8 +252,7 @@ namespace MagicBube_Solution
         {
             color_change(d_8.Text, d_8);
         }
-
-
+        //U面
         private void u_0_TextChanged(object sender, EventArgs e)
         {
             color_change(u_0.Text, u_0);
@@ -287,8 +297,7 @@ namespace MagicBube_Solution
         {
             color_change(u_8.Text, u_8);
         }
-
-
+        //B面
         private void b_0_TextChanged(object sender, EventArgs e)
         {
             color_change(b_0.Text, b_0);

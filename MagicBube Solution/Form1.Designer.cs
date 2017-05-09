@@ -107,7 +107,7 @@
             // 
             // F
             // 
-            this.F.Location = new System.Drawing.Point(978, 100);
+            this.F.Location = new System.Drawing.Point(707, 70);
             this.F.Name = "F";
             this.F.Size = new System.Drawing.Size(153, 67);
             this.F.TabIndex = 0;
@@ -116,7 +116,7 @@
             // 
             // B
             // 
-            this.B.Location = new System.Drawing.Point(1137, 100);
+            this.B.Location = new System.Drawing.Point(866, 70);
             this.B.Name = "B";
             this.B.Size = new System.Drawing.Size(153, 67);
             this.B.TabIndex = 1;
@@ -125,7 +125,7 @@
             // 
             // L
             // 
-            this.L.Location = new System.Drawing.Point(978, 173);
+            this.L.Location = new System.Drawing.Point(707, 143);
             this.L.Name = "L";
             this.L.Size = new System.Drawing.Size(153, 67);
             this.L.TabIndex = 2;
@@ -134,7 +134,7 @@
             // 
             // U
             // 
-            this.U.Location = new System.Drawing.Point(978, 246);
+            this.U.Location = new System.Drawing.Point(707, 216);
             this.U.Name = "U";
             this.U.Size = new System.Drawing.Size(153, 67);
             this.U.TabIndex = 3;
@@ -143,7 +143,7 @@
             // 
             // R
             // 
-            this.R.Location = new System.Drawing.Point(1137, 173);
+            this.R.Location = new System.Drawing.Point(866, 143);
             this.R.Name = "R";
             this.R.Size = new System.Drawing.Size(153, 67);
             this.R.TabIndex = 4;
@@ -152,7 +152,7 @@
             // 
             // D
             // 
-            this.D.Location = new System.Drawing.Point(1137, 246);
+            this.D.Location = new System.Drawing.Point(866, 216);
             this.D.Name = "D";
             this.D.Size = new System.Drawing.Size(153, 67);
             this.D.TabIndex = 5;
@@ -788,7 +788,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1381, 666);
+            this.ClientSize = new System.Drawing.Size(1103, 666);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.D);
             this.Controls.Add(this.R);
