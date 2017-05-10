@@ -23,8 +23,13 @@ namespace MagicBube_Solution
         string[] L_side = new string[9] {"B", "B", "B", "B", "B", "B", "B", "B", "B"};
         string[] U_side = new string[9] {"Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y"};
         string[] D_side = new string[9] {"G", "G", "G", "G", "G", "G", "G", "G", "G"};
-
-
+        /*
+        ****************************
+        *** 執行步驟數、矩陣宣告 ***
+        ****************************
+        */
+        int step_num = 0;
+        List<char> steps = new List<char>();
         /*
         ********************************************************
         *** 這裡撰寫變色方法, 傳入(字串內容,物件本身) (成功) ***
@@ -156,6 +161,19 @@ namespace MagicBube_Solution
         public void f_turn(int times)
         {
             string[] x = new string[3];
+            
+            //防止倒轉負號錯誤
+            if (times == -1)
+            {
+                times = 3;
+            }else if (times == -2)
+            {
+                times = 2;
+            }else if (times == -3)
+            {
+                times = 1;
+            }
+
             for(int j=0; j<times; j++)
             {
                 //F面四角
@@ -195,6 +213,17 @@ namespace MagicBube_Solution
                 //更新方法套入
                 array_cube_update();
 
+                step_num++;
+                //steps[step_num - 1] = 'F';
+                steps.Add('F');
+                //info_box.AppendText("總共花了:" + step_num + " 個步驟" + Environment.NewLine);
+
+                //這裡要寫SHOW出全部的LIST值
+                /*foreach (char k in steps)
+                {
+                    info_box.AppendText(k.ToString() + " ");
+                }
+                info_box.AppendText(Environment.NewLine);*/
             }
         }
         /*
@@ -205,6 +234,20 @@ namespace MagicBube_Solution
         public void b_turn(int times)
         {
             string[] x = new string[3];
+
+            //防止倒轉負號錯誤
+            if (times == -1)
+            {
+                times = 3;
+            }
+            else if (times == -2)
+            {
+                times = 2;
+            }
+            else if (times == -3)
+            {
+                times = 1;
+            }
             for (int j = 0; j < times; j++)
             {
                 //B面四角
@@ -244,6 +287,17 @@ namespace MagicBube_Solution
                 //更新方法套入
                 array_cube_update();
 
+                step_num++;
+                //steps[step_num - 1] = 'B';
+                steps.Add('B');
+                //info_box.AppendText("總共花了:" + step_num + " 個步驟" + Environment.NewLine);
+
+                //這裡要寫SHOW出全部的LIST值
+                /*foreach (char k in steps)
+                {
+                    info_box.AppendText(k.ToString() + " ");
+                }
+                info_box.AppendText(Environment.NewLine);*/
             }
         }
         /*
@@ -254,6 +308,20 @@ namespace MagicBube_Solution
         public void l_turn(int times)
         {
             string[] x = new string[3];
+
+            //防止倒轉負號錯誤
+            if (times == -1)
+            {
+                times = 3;
+            }
+            else if (times == -2)
+            {
+                times = 2;
+            }
+            else if (times == -3)
+            {
+                times = 1;
+            }
             for (int j = 0; j < times; j++)
             {
                 //L面四角
@@ -293,6 +361,17 @@ namespace MagicBube_Solution
                 //更新方法套入
                 array_cube_update();
 
+                step_num++;
+                //steps[step_num - 1] = 'L';
+                steps.Add('L');
+                //info_box.AppendText("總共花了:" + step_num + " 個步驟" + Environment.NewLine);
+
+                //這裡要寫SHOW出全部的LIST值
+                /*foreach (char k in steps)
+                {
+                    info_box.AppendText(k.ToString() + " ");
+                }
+                info_box.AppendText(Environment.NewLine);*/
             }
         }
         /*
@@ -303,6 +382,20 @@ namespace MagicBube_Solution
         public void r_turn(int times)
         {
             string[] x = new string[3];
+
+            //防止倒轉負號錯誤
+            if (times == -1)
+            {
+                times = 3;
+            }
+            else if (times == -2)
+            {
+                times = 2;
+            }
+            else if (times == -3)
+            {
+                times = 1;
+            }
             for (int j = 0; j < times; j++)
             {
                 //R面四角
@@ -342,6 +435,17 @@ namespace MagicBube_Solution
                 //更新方法套入
                 array_cube_update();
 
+                step_num++;
+                //steps[step_num - 1] = 'R';
+                steps.Add('R');
+                //info_box.AppendText("總共花了:" + step_num + " 個步驟" + Environment.NewLine);
+
+                //這裡要寫SHOW出全部的LIST值
+                /*foreach (char k in steps)
+                {
+                    info_box.AppendText(k.ToString() + " ");
+                }
+                info_box.AppendText(Environment.NewLine);*/
             }
         }
         /*
@@ -352,6 +456,20 @@ namespace MagicBube_Solution
         public void u_turn(int times)
         {
             string[] x = new string[3];
+
+            //防止倒轉負號錯誤
+            if (times == -1)
+            {
+                times = 3;
+            }
+            else if (times == -2)
+            {
+                times = 2;
+            }
+            else if (times == -3)
+            {
+                times = 1;
+            }
             for (int j = 0; j < times; j++)
             {
                 //U面四角
@@ -391,6 +509,17 @@ namespace MagicBube_Solution
                 //更新方法套入
                 array_cube_update();
 
+                step_num++;
+                //steps[step_num - 1] = 'U';
+                steps.Add('U');
+                //info_box.AppendText("總共花了:" + step_num + " 個步驟" + Environment.NewLine);
+
+                //這裡要寫SHOW出全部的LIST值
+                /*foreach (char k in steps)
+                {
+                    info_box.AppendText(k.ToString() + " ");
+                }
+                info_box.AppendText(Environment.NewLine);*/
             }
         }
         /*
@@ -401,6 +530,20 @@ namespace MagicBube_Solution
         public void d_turn(int times)
         {
             string[] x = new string[3];
+
+            //防止倒轉負號錯誤
+            if (times == -1)
+            {
+                times = 3;
+            }
+            else if (times == -2)
+            {
+                times = 2;
+            }
+            else if (times == -3)
+            {
+                times = 1;
+            }
             for (int j = 0; j < times; j++)
             {
                 //D面四角
@@ -440,6 +583,17 @@ namespace MagicBube_Solution
                 //更新方法套入
                 array_cube_update();
 
+                step_num++;
+                //steps[step_num - 1] = 'D';
+                steps.Add('D');
+                //info_box.AppendText("總共花了:" + step_num + " 個步驟" + Environment.NewLine);
+
+                //這裡要寫SHOW出全部的LIST值
+                /*foreach (char k in steps)
+                {
+                    info_box.AppendText(k.ToString() + " ");
+                }
+                info_box.AppendText(Environment.NewLine);*/
             }
         }
 
@@ -737,6 +891,7 @@ namespace MagicBube_Solution
         private void F_Click(object sender, EventArgs e)
         {
             f_turn(1);
+            trace_back.Enabled = true;
         }
         /*
         ***************
@@ -746,6 +901,7 @@ namespace MagicBube_Solution
         private void B_Click(object sender, EventArgs e)
         {
             b_turn(1);
+            trace_back.Enabled = true;
         }
         /*
         ***************
@@ -755,6 +911,7 @@ namespace MagicBube_Solution
         private void R_Click_1(object sender, EventArgs e)
         {
             r_turn(1);
+            trace_back.Enabled = true;
         }
         /*
         ***************
@@ -764,6 +921,7 @@ namespace MagicBube_Solution
         private void L_Click_1(object sender, EventArgs e)
         {
             l_turn(1);
+            trace_back.Enabled = true;
         }
         /*
         ***************
@@ -773,6 +931,7 @@ namespace MagicBube_Solution
         private void U_Click(object sender, EventArgs e)
         {
             u_turn(1);
+            trace_back.Enabled = true;
         }
         /*
         ***************
@@ -782,6 +941,70 @@ namespace MagicBube_Solution
         private void D_Click(object sender, EventArgs e)
         {
             d_turn(1);
+            trace_back.Enabled = true;
+        }
+        /*
+        ****************
+        *** 復原按鈕 ***
+        ****************
+        */
+        private void return_to_default_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void trace_back_Click(object sender, EventArgs e)
+        {
+            //info_box.AppendText((steps[step_num-1]).ToString());
+            //將步驟倒回去看
+            List<string> trace_back_steps = new List<string>();
+            for (int i = step_num-1; i >=0; i--)
+            {
+                switch (steps[i])
+                {
+                    case 'F':
+                        f_turn(-1);
+                        trace_back_steps.Add("F(-1)");
+                        break;
+
+                    case 'B':
+                        b_turn(-1);
+                        trace_back_steps.Add("B(-1)");
+                        break;
+
+                    case 'R':
+                        r_turn(-1);
+                        trace_back_steps.Add("R(-1)");
+                        break;
+
+                    case 'L':
+                        l_turn(-1);
+                        trace_back_steps.Add("L(-1)");
+                        break;
+
+                    case 'U':
+                        u_turn(-1);
+                        trace_back_steps.Add("U(-1)");
+                        break;
+
+                    case 'D':
+                        d_turn(-1);
+                        trace_back_steps.Add("D(-1)");
+                        break;
+                }
+            }
+            steps.Clear();
+            trace_back.Enabled = false;
+            step_num = 0;
+            //以下為顯示"回朔步驟數"與"回朔步驟"ㄖ
+            info_box.AppendText("共有：" + trace_back_steps.Count + " 個步驟" + Environment.NewLine);
+            info_box.AppendText("步驟為：");
+            foreach(string k in trace_back_steps)
+            {
+                info_box.AppendText(k + " ");
+            }
+            info_box.AppendText(Environment.NewLine);
+
         }
     }
 }

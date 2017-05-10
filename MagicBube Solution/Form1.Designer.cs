@@ -800,9 +800,11 @@
             // 
             this.info_box.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.info_box.Enabled = false;
+            this.info_box.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.info_box.Location = new System.Drawing.Point(620, 392);
             this.info_box.Multiline = true;
             this.info_box.Name = "info_box";
+            this.info_box.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.info_box.Size = new System.Drawing.Size(449, 260);
             this.info_box.TabIndex = 17;
             // 
@@ -826,6 +828,7 @@
             // trace_back
             // 
             this.trace_back.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.trace_back.Enabled = false;
             this.trace_back.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.trace_back.Location = new System.Drawing.Point(620, 312);
             this.trace_back.Name = "trace_back";
@@ -833,6 +836,7 @@
             this.trace_back.TabIndex = 6;
             this.trace_back.Text = "回朔";
             this.trace_back.UseVisualStyleBackColor = true;
+            this.trace_back.Click += new System.EventHandler(this.trace_back_Click);
             // 
             // analyse
             // 
@@ -855,6 +859,7 @@
             this.return_to_default.TabIndex = 20;
             this.return_to_default.Text = "還原";
             this.return_to_default.UseVisualStyleBackColor = true;
+            this.return_to_default.Click += new System.EventHandler(this.return_to_default_Click);
             // 
             // Form1
             // 
@@ -868,7 +873,6 @@
             this.Controls.Add(this.info_box);
             this.Controls.Add(this.groupBox6);
             this.Name = "Form1";
-            this.Text = "Magic Cube Solution";
             this.Face_F.ResumeLayout(false);
             this.Face_F.PerformLayout();
             this.groupBox1.ResumeLayout(false);
