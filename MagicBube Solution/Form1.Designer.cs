@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.F = new System.Windows.Forms.Button();
             this.B = new System.Windows.Forms.Button();
             this.L = new System.Windows.Forms.Button();
@@ -101,6 +102,7 @@
             this.trace_back = new System.Windows.Forms.Button();
             this.analyse = new System.Windows.Forms.Button();
             this.return_to_default = new System.Windows.Forms.Button();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.Face_F.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -861,6 +863,10 @@
             this.return_to_default.UseVisualStyleBackColor = true;
             this.return_to_default.Click += new System.EventHandler(this.return_to_default_Click);
             // 
+            // timer
+            // 
+            this.timer.Interval = 1000;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -968,6 +974,7 @@
         private System.Windows.Forms.Button trace_back;
         private System.Windows.Forms.Button analyse;
         private System.Windows.Forms.Button return_to_default;
+        private System.Windows.Forms.Timer timer;
     }
 }
 

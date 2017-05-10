@@ -952,9 +952,15 @@ namespace MagicBube_Solution
         {
             
         }
-
+        /*
+        ****************
+        *** 回朔按鈕 ***
+        ****************
+        */
         private void trace_back_Click(object sender, EventArgs e)
         {
+            //add timer just for fun~~~~~~~~~~~~~
+            timer.Enabled = true;
             //info_box.AppendText((steps[step_num-1]).ToString());
             //將步驟倒回去看
             List<string> trace_back_steps = new List<string>();
@@ -965,6 +971,7 @@ namespace MagicBube_Solution
                     case 'F':
                         f_turn(-1);
                         trace_back_steps.Add("F(-1)");
+                        
                         break;
 
                     case 'B':
