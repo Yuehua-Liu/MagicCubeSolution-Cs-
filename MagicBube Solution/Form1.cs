@@ -950,7 +950,23 @@ namespace MagicBube_Solution
         */
         private void return_to_default_Click(object sender, EventArgs e)
         {
-            
+            for(int i = 0;i< F_side.Length; i++)
+            {
+                F_side[i] = "W";
+                B_side[i] = "O";
+                R_side[i] = "R";
+                L_side[i] = "B";
+                U_side[i] = "Y";
+                D_side[i] = "G";
+            }
+            array_cube_update();
+
+            step_num = 0;
+            steps.Clear();
+            info_box.Clear();
+            trace_back.Enabled = false;
+
+
         }
         /*
         ****************
@@ -1007,7 +1023,7 @@ namespace MagicBube_Solution
             steps.Clear();
             trace_back.Enabled = false;
             step_num = 0;
-            //以下為顯示"回朔步驟數"與"回朔步驟"ㄖ
+            //以下為顯示"回朔步驟數"與"回朔步驟"
             info_box.AppendText("共有：" + trace_back_steps.Count + " 個步驟" + Environment.NewLine);
             info_box.AppendText("步驟為：");
             foreach(string k in trace_back_steps)
