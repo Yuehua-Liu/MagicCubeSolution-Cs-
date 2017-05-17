@@ -16,3 +16,6 @@ C:\Users\USER\Desktop\Program\C#\MagicBube Solution\MagicCubeSolution-Cs-\MagicB
 C:\Users\USER\Desktop\Program\C#\MagicBube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube_Solution.Form1.resources
 C:\Users\USER\Desktop\Program\C#\MagicBube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube_Solution.Properties.Resources.resources
 C:\Users\USER\Desktop\Program\C#\MagicBube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube Solution.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\bin\Debug\MagicBube Solution.exe.config
+C:\Users\USER\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube Solution.exe
+C:\Users\USER\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube Solution.pdb
