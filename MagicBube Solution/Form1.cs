@@ -986,37 +986,37 @@ namespace MagicBube_Solution
                     case 'F':
                         f_turn(-1);
                         trace_back_steps.Add("F(-1)");
-                        //Task.Delay(1).Wait();         //這邊原本想讓色塊有時間跑，但是還是追不上，太快了！！
+                        Application.DoEvents(); //讓畫面動完才做下一步
                         break;
 
                     case 'B':
                         b_turn(-1);
                         trace_back_steps.Add("B(-1)");
-                        //Task.Delay(1).Wait();
+                        Application.DoEvents(); //讓畫面動完才做下一步
                         break;
 
                     case 'R':
                         r_turn(-1);
                         trace_back_steps.Add("R(-1)");
-                        //Task.Delay(1).Wait();
+                        Application.DoEvents(); //讓畫面動完才做下一步
                         break;
 
                     case 'L':
                         l_turn(-1);
                         trace_back_steps.Add("L(-1)");
-                        //Task.Delay(1).Wait();
+                        Application.DoEvents(); //讓畫面動完才做下一步
                         break;
 
                     case 'U':
                         u_turn(-1);
                         trace_back_steps.Add("U(-1)");
-                        //Task.Delay(1).Wait();
+                        Application.DoEvents(); //讓畫面動完才做下一步
                         break;
 
                     case 'D':
                         d_turn(-1);
                         trace_back_steps.Add("D(-1)");
-                        //Task.Delay(1).Wait();
+                        Application.DoEvents(); //讓畫面動完才做下一步
                         break;
                 }
             }
