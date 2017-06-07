@@ -801,11 +801,11 @@
             // info_box
             // 
             this.info_box.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.info_box.Enabled = false;
             this.info_box.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.info_box.Location = new System.Drawing.Point(620, 392);
             this.info_box.Multiline = true;
             this.info_box.Name = "info_box";
+            this.info_box.ReadOnly = true;
             this.info_box.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.info_box.Size = new System.Drawing.Size(449, 260);
             this.info_box.TabIndex = 17;

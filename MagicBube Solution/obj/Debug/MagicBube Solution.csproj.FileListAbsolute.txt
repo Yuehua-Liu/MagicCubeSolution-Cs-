@@ -25,3 +25,12 @@ C:\Users\USER\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicB
 C:\Users\USER\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube_Solution.Form1.resources
 C:\Users\USER\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube_Solution.Properties.Resources.resources
 C:\Users\USER\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube Solution.csproj.GenerateResource.Cache
+D:\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\bin\Debug\MagicBube Solution.exe.config
+D:\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\bin\Debug\MagicBube Solution.exe
+D:\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\bin\Debug\MagicBube Solution.pdb
+D:\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube Solution.csprojResolveAssemblyReference.cache
+D:\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube_Solution.Form1.resources
+D:\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube_Solution.Properties.Resources.resources
+D:\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube Solution.csproj.GenerateResource.Cache
+D:\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube Solution.exe
+D:\Desktop\Program\C#\MagicCube Solution\MagicCubeSolution-Cs-\MagicBube Solution\obj\Debug\MagicBube Solution.pdb
