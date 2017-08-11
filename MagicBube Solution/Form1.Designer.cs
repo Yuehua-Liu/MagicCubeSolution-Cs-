@@ -389,7 +389,7 @@
             // 
             // l_8
             // 
-            this.l_8.BackColor = System.Drawing.Color.Blue;
+            this.l_8.BackColor = System.Drawing.Color.Orange;
             this.l_8.Location = new System.Drawing.Point(76, 89);
             this.l_8.Name = "l_8";
             this.l_8.Size = new System.Drawing.Size(29, 29);
@@ -398,7 +398,7 @@
             // 
             // l_7
             // 
-            this.l_7.BackColor = System.Drawing.Color.Blue;
+            this.l_7.BackColor = System.Drawing.Color.Orange;
             this.l_7.Location = new System.Drawing.Point(41, 89);
             this.l_7.Name = "l_7";
             this.l_7.Size = new System.Drawing.Size(29, 29);
@@ -407,7 +407,7 @@
             // 
             // l_6
             // 
-            this.l_6.BackColor = System.Drawing.Color.Blue;
+            this.l_6.BackColor = System.Drawing.Color.Orange;
             this.l_6.Location = new System.Drawing.Point(6, 89);
             this.l_6.Name = "l_6";
             this.l_6.Size = new System.Drawing.Size(29, 29);
@@ -416,7 +416,7 @@
             // 
             // l_5
             // 
-            this.l_5.BackColor = System.Drawing.Color.Blue;
+            this.l_5.BackColor = System.Drawing.Color.Orange;
             this.l_5.Location = new System.Drawing.Point(76, 54);
             this.l_5.Name = "l_5";
             this.l_5.Size = new System.Drawing.Size(29, 29);
@@ -425,7 +425,7 @@
             // 
             // l_4
             // 
-            this.l_4.BackColor = System.Drawing.Color.Blue;
+            this.l_4.BackColor = System.Drawing.Color.Orange;
             this.l_4.Location = new System.Drawing.Point(41, 54);
             this.l_4.Name = "l_4";
             this.l_4.Size = new System.Drawing.Size(29, 29);
@@ -434,7 +434,7 @@
             // 
             // l_3
             // 
-            this.l_3.BackColor = System.Drawing.Color.Blue;
+            this.l_3.BackColor = System.Drawing.Color.Orange;
             this.l_3.Location = new System.Drawing.Point(6, 54);
             this.l_3.Name = "l_3";
             this.l_3.Size = new System.Drawing.Size(29, 29);
@@ -443,7 +443,7 @@
             // 
             // l_1
             // 
-            this.l_1.BackColor = System.Drawing.Color.Blue;
+            this.l_1.BackColor = System.Drawing.Color.Orange;
             this.l_1.Location = new System.Drawing.Point(41, 19);
             this.l_1.Name = "l_1";
             this.l_1.Size = new System.Drawing.Size(29, 29);
@@ -452,7 +452,7 @@
             // 
             // l_2
             // 
-            this.l_2.BackColor = System.Drawing.Color.Blue;
+            this.l_2.BackColor = System.Drawing.Color.Orange;
             this.l_2.Location = new System.Drawing.Point(76, 19);
             this.l_2.Name = "l_2";
             this.l_2.Size = new System.Drawing.Size(29, 29);
@@ -461,7 +461,7 @@
             // 
             // l_0
             // 
-            this.l_0.BackColor = System.Drawing.Color.Blue;
+            this.l_0.BackColor = System.Drawing.Color.Orange;
             this.l_0.Location = new System.Drawing.Point(6, 19);
             this.l_0.Name = "l_0";
             this.l_0.Size = new System.Drawing.Size(29, 29);
@@ -591,7 +591,7 @@
             // 
             // u_8
             // 
-            this.u_8.BackColor = System.Drawing.Color.Yellow;
+            this.u_8.BackColor = System.Drawing.Color.Blue;
             this.u_8.Location = new System.Drawing.Point(76, 89);
             this.u_8.Name = "u_8";
             this.u_8.Size = new System.Drawing.Size(29, 29);
@@ -600,7 +600,7 @@
             // 
             // u_7
             // 
-            this.u_7.BackColor = System.Drawing.Color.Yellow;
+            this.u_7.BackColor = System.Drawing.Color.Blue;
             this.u_7.Location = new System.Drawing.Point(41, 89);
             this.u_7.Name = "u_7";
             this.u_7.Size = new System.Drawing.Size(29, 29);
@@ -609,7 +609,7 @@
             // 
             // u_6
             // 
-            this.u_6.BackColor = System.Drawing.Color.Yellow;
+            this.u_6.BackColor = System.Drawing.Color.Blue;
             this.u_6.Location = new System.Drawing.Point(6, 89);
             this.u_6.Name = "u_6";
             this.u_6.Size = new System.Drawing.Size(29, 29);
@@ -618,7 +618,7 @@
             // 
             // u_5
             // 
-            this.u_5.BackColor = System.Drawing.Color.Yellow;
+            this.u_5.BackColor = System.Drawing.Color.Blue;
             this.u_5.Location = new System.Drawing.Point(76, 54);
             this.u_5.Name = "u_5";
             this.u_5.Size = new System.Drawing.Size(29, 29);
@@ -627,7 +627,7 @@
             // 
             // u_4
             // 
-            this.u_4.BackColor = System.Drawing.Color.Yellow;
+            this.u_4.BackColor = System.Drawing.Color.Blue;
             this.u_4.Location = new System.Drawing.Point(41, 54);
             this.u_4.Name = "u_4";
             this.u_4.Size = new System.Drawing.Size(29, 29);
@@ -636,7 +636,7 @@
             // 
             // u_3
             // 
-            this.u_3.BackColor = System.Drawing.Color.Yellow;
+            this.u_3.BackColor = System.Drawing.Color.Blue;
             this.u_3.Location = new System.Drawing.Point(6, 54);
             this.u_3.Name = "u_3";
             this.u_3.Size = new System.Drawing.Size(29, 29);
@@ -645,7 +645,7 @@
             // 
             // u_1
             // 
-            this.u_1.BackColor = System.Drawing.Color.Yellow;
+            this.u_1.BackColor = System.Drawing.Color.Blue;
             this.u_1.Location = new System.Drawing.Point(41, 19);
             this.u_1.Name = "u_1";
             this.u_1.Size = new System.Drawing.Size(29, 29);
@@ -654,7 +654,7 @@
             // 
             // u_2
             // 
-            this.u_2.BackColor = System.Drawing.Color.Yellow;
+            this.u_2.BackColor = System.Drawing.Color.Blue;
             this.u_2.Location = new System.Drawing.Point(76, 19);
             this.u_2.Name = "u_2";
             this.u_2.Size = new System.Drawing.Size(29, 29);
@@ -663,7 +663,7 @@
             // 
             // u_0
             // 
-            this.u_0.BackColor = System.Drawing.Color.Yellow;
+            this.u_0.BackColor = System.Drawing.Color.Blue;
             this.u_0.Location = new System.Drawing.Point(6, 19);
             this.u_0.Name = "u_0";
             this.u_0.Size = new System.Drawing.Size(29, 29);
@@ -692,7 +692,7 @@
             // 
             // b_8
             // 
-            this.b_8.BackColor = System.Drawing.Color.Orange;
+            this.b_8.BackColor = System.Drawing.Color.Yellow;
             this.b_8.Location = new System.Drawing.Point(76, 89);
             this.b_8.Name = "b_8";
             this.b_8.Size = new System.Drawing.Size(29, 29);
@@ -701,7 +701,7 @@
             // 
             // b_7
             // 
-            this.b_7.BackColor = System.Drawing.Color.Orange;
+            this.b_7.BackColor = System.Drawing.Color.Yellow;
             this.b_7.Location = new System.Drawing.Point(41, 89);
             this.b_7.Name = "b_7";
             this.b_7.Size = new System.Drawing.Size(29, 29);
@@ -710,7 +710,7 @@
             // 
             // b_6
             // 
-            this.b_6.BackColor = System.Drawing.Color.Orange;
+            this.b_6.BackColor = System.Drawing.Color.Yellow;
             this.b_6.Location = new System.Drawing.Point(6, 89);
             this.b_6.Name = "b_6";
             this.b_6.Size = new System.Drawing.Size(29, 29);
@@ -719,7 +719,7 @@
             // 
             // b_5
             // 
-            this.b_5.BackColor = System.Drawing.Color.Orange;
+            this.b_5.BackColor = System.Drawing.Color.Yellow;
             this.b_5.Location = new System.Drawing.Point(76, 54);
             this.b_5.Name = "b_5";
             this.b_5.Size = new System.Drawing.Size(29, 29);
@@ -728,7 +728,7 @@
             // 
             // b_4
             // 
-            this.b_4.BackColor = System.Drawing.Color.Orange;
+            this.b_4.BackColor = System.Drawing.Color.Yellow;
             this.b_4.Location = new System.Drawing.Point(41, 54);
             this.b_4.Name = "b_4";
             this.b_4.Size = new System.Drawing.Size(29, 29);
@@ -737,7 +737,7 @@
             // 
             // b_3
             // 
-            this.b_3.BackColor = System.Drawing.Color.Orange;
+            this.b_3.BackColor = System.Drawing.Color.Yellow;
             this.b_3.Location = new System.Drawing.Point(6, 54);
             this.b_3.Name = "b_3";
             this.b_3.Size = new System.Drawing.Size(29, 29);
@@ -746,7 +746,7 @@
             // 
             // b_1
             // 
-            this.b_1.BackColor = System.Drawing.Color.Orange;
+            this.b_1.BackColor = System.Drawing.Color.Yellow;
             this.b_1.Location = new System.Drawing.Point(41, 19);
             this.b_1.Name = "b_1";
             this.b_1.Size = new System.Drawing.Size(29, 29);
@@ -755,7 +755,7 @@
             // 
             // b_2
             // 
-            this.b_2.BackColor = System.Drawing.Color.Orange;
+            this.b_2.BackColor = System.Drawing.Color.Yellow;
             this.b_2.Location = new System.Drawing.Point(76, 19);
             this.b_2.Name = "b_2";
             this.b_2.Size = new System.Drawing.Size(29, 29);
@@ -764,7 +764,7 @@
             // 
             // b_0
             // 
-            this.b_0.BackColor = System.Drawing.Color.Orange;
+            this.b_0.BackColor = System.Drawing.Color.Yellow;
             this.b_0.Location = new System.Drawing.Point(6, 19);
             this.b_0.Name = "b_0";
             this.b_0.Size = new System.Drawing.Size(29, 29);
@@ -802,7 +802,7 @@
             // 
             this.info_box.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.info_box.Font = new System.Drawing.Font("微軟正黑體", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.info_box.Location = new System.Drawing.Point(620, 392);
+            this.info_box.Location = new System.Drawing.Point(633, 392);
             this.info_box.Multiline = true;
             this.info_box.Name = "info_box";
             this.info_box.ReadOnly = true;
@@ -820,7 +820,7 @@
             this.groupBox7.Controls.Add(this.R);
             this.groupBox7.Controls.Add(this.U);
             this.groupBox7.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.groupBox7.Location = new System.Drawing.Point(620, 29);
+            this.groupBox7.Location = new System.Drawing.Point(633, 29);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(449, 277);
             this.groupBox7.TabIndex = 18;
@@ -832,7 +832,7 @@
             this.trace_back.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.trace_back.Enabled = false;
             this.trace_back.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.trace_back.Location = new System.Drawing.Point(620, 312);
+            this.trace_back.Location = new System.Drawing.Point(633, 312);
             this.trace_back.Name = "trace_back";
             this.trace_back.Size = new System.Drawing.Size(131, 67);
             this.trace_back.TabIndex = 6;
@@ -844,18 +844,19 @@
             // 
             this.analyse.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.analyse.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.analyse.Location = new System.Drawing.Point(779, 314);
+            this.analyse.Location = new System.Drawing.Point(792, 314);
             this.analyse.Name = "analyse";
             this.analyse.Size = new System.Drawing.Size(131, 67);
             this.analyse.TabIndex = 19;
             this.analyse.Text = "分析";
             this.analyse.UseVisualStyleBackColor = true;
+            this.analyse.Click += new System.EventHandler(this.analyse_Click);
             // 
             // return_to_default
             // 
             this.return_to_default.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.return_to_default.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.return_to_default.Location = new System.Drawing.Point(938, 314);
+            this.return_to_default.Location = new System.Drawing.Point(951, 314);
             this.return_to_default.Name = "return_to_default";
             this.return_to_default.Size = new System.Drawing.Size(131, 67);
             this.return_to_default.TabIndex = 20;
@@ -871,7 +872,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1101, 666);
+            this.ClientSize = new System.Drawing.Size(1114, 666);
             this.Controls.Add(this.return_to_default);
             this.Controls.Add(this.analyse);
             this.Controls.Add(this.trace_back);
@@ -879,6 +880,7 @@
             this.Controls.Add(this.info_box);
             this.Controls.Add(this.groupBox6);
             this.Name = "Form1";
+            this.Text = "Rubik\'s Cube Solution";
             this.Face_F.ResumeLayout(false);
             this.Face_F.PerformLayout();
             this.groupBox1.ResumeLayout(false);

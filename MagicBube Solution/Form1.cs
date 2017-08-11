@@ -17,12 +17,12 @@ namespace MagicBube_Solution
         *** 魔術方塊矩陣宣告 + 預設 ***
         *******************************
         */
-        string[] F_side = new string[9] {"W", "W", "W", "W", "W", "W", "W", "W", "W"};
-        string[] B_side = new string[9] {"O", "O", "O", "O", "O", "O", "O", "O", "O"};
-        string[] R_side = new string[9] {"R", "R", "R", "R", "R", "R", "R", "R", "R"};
-        string[] L_side = new string[9] {"B", "B", "B", "B", "B", "B", "B", "B", "B"};
-        string[] U_side = new string[9] {"Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y"};
-        string[] D_side = new string[9] {"G", "G", "G", "G", "G", "G", "G", "G", "G"};
+        string[] F_side = new string[9] { "W", "W", "W", "W", "W", "W", "W", "W", "W" };
+        string[] B_side = new string[9] { "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y" };
+        string[] R_side = new string[9] { "R", "R", "R", "R", "R", "R", "R", "R", "R" };
+        string[] L_side = new string[9] { "O", "O", "O", "O", "O", "O", "O", "O", "O" };
+        string[] U_side = new string[9] { "B", "B", "B", "B", "B", "B", "B", "B", "B" };
+        string[] D_side = new string[9] { "G", "G", "G", "G", "G", "G", "G", "G", "G" };
         /*
         ****************************
         *** 執行步驟數、矩陣宣告 ***
@@ -1031,6 +1031,64 @@ namespace MagicBube_Solution
                 info_box.AppendText(k + " ");
             }
             info_box.AppendText(Environment.NewLine);
+
+        }
+
+        /*
+        ********************************************************
+        ******　以下開始為「分析」功能方法定義、功能撰寫　******
+        ********************************************************
+        */
+
+        /*
+        ************************
+        ***　第一面分析方法　***
+        ************************
+        */
+        private void first_face_solve()
+        {
+
+        }
+
+
+        /*
+        ************************
+        ***　第一層分析方法　***
+        ************************
+        */
+
+
+
+        /*
+        ************************
+        ***　第二層分析方法　***
+        ************************
+        */
+
+
+
+        /*
+        ************************
+        ****　頂面分析方法　****
+        ************************
+        */
+
+
+        /*
+        ************************
+        ***　側三面分析方法　***
+        ************************
+        */
+
+
+
+        /*
+        **********************
+        ***　「分析」按鈕　***
+        **********************
+        */
+        private void analyse_Click(object sender, EventArgs e)
+        {
 
         }
     }
